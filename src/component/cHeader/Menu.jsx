@@ -3,6 +3,18 @@ import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 
+//les ongles de navigation
+const navigation = [
+  { name: "Home", to: "/" },
+  { name: "Solutions", to: "/solution" },
+  { name: "About", to: "/about" },
+  { name: "faq", to: "/faq" },
+  { name: "blog", to: "/blog" },
+  { name: "Contact", to: "/contact" },
+];
+
+
+
 const Menu = () => {
   return (
     <>
@@ -51,7 +63,9 @@ const Menu = () => {
         </div>
 
         {/* Les ongles du menu */}
-        <div className=""></div>
+        <div className=" bg-green-600">
+
+        </div>
 
       </div>
     </>
