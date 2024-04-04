@@ -1,22 +1,26 @@
 import { Link } from "react-router-dom";
-import { FaPhoneVolume } from "react-icons/fa6";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 
 const Menu = () => {
   return (
     <>
-      <div className="min-h-full">
+      <div className="min-h-full ">
         {/* Top Bar begin */}
-        <div className=" bg-slate-50">
+        <div className=" bg-slate-50 md:px-10 px-12 md:p-6 p-5">
           <div className="flex justify-between items-center">
             <Link to={"/"}>
-              <img src="../../public/vite.svg" alt="logo" className="" />
+              <img
+                src="../../public/vite.svg"
+                alt="logo"
+                className=" h-14 w-14"
+              />
             </Link>
             {/* */}
-            <div className="flex justify-center items-center">
-              <div className="flex gap-5">
-                <FaPhoneVolume className=" font-extrabold text-3xl text-green-600" />
+            <div className="flex justify-center items-center gap-5">
+              <div className="flex gap-2">
+                <LiaPhoneVolumeSolid className=" font-extrabold text-6xl text-green-600" />
                 <div>
                   <h3 className=" text-black text-2xl font-bold">Appel</h3>
                   <p className=" text-green-600 text-xl font-semibold">
@@ -24,8 +28,8 @@ const Menu = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex gap-5">
-                <MdOutlineWatchLater />
+              <div className="flex gap-2">
+                <MdOutlineWatchLater className=" font-extrabold text-6xl text-green-600" />
                 <div>
                   <h3 className=" text-black text-2xl font-bold">Horaire</h3>
                   <p className=" text-green-600 text-xl font-semibold">
@@ -33,8 +37,8 @@ const Menu = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex gap-5">
-                <IoLocationOutline />
+              <div className="flex gap-2">
+                <IoLocationOutline className=" font-extrabold text-6xl text-green-600" />
                 <div>
                   <h3 className=" text-black text-2xl font-bold">Location</h3>
                   <p className=" text-green-600 text-xl font-semibold">
@@ -45,6 +49,10 @@ const Menu = () => {
             </div>
           </div>
         </div>
+
+        {/* Les ongles du menu */}
+        <div className=""></div>
+
       </div>
     </>
   );
