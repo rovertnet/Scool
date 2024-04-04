@@ -1,4 +1,3 @@
-
 //les routes de toutes les pages du site
 
 import { createBrowserRouter } from "react-router-dom";
