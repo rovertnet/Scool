@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom";
+import Menu from "../component/cHeader/Menu";
 
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
+    <>
+      <Outlet />
+      <Menu />
+    </>
+  );
 }
 
 export default Contact

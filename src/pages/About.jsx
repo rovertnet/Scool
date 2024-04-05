@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom"
+import Menu from "../component/cHeader/Menu";
 
 
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <>
+      <Outlet />
+      <Menu />
+    </>
+  );
 }
 
 export default About

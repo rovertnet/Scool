@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom";
+import Menu from "../component/cHeader/Menu";
 
 
 const Faq = () => {
   return (
-    <div>Faq</div>
-  )
+    <>
+      <Outlet />
+      <Menu />
+    </>
+  );
 }
 
 export default Faq
