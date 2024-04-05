@@ -65,7 +65,7 @@ const Menu = () => {
         </div>
 
         {/* Les ongles du menu */}
-        <div className=" bg-green-600">
+        <div className=" bg-green-700">
           <div className="flex justify-between items-center">
             {/* Les liens de nav */}
             <div className=" hidden md:block">
@@ -78,7 +78,7 @@ const Menu = () => {
                       classNames(
                         isActive
                           ? " text-white text-xl font-bold border-white border-b-8"
-                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          : "text-gray-300 hover:bg-green-800 hover:text-white",
                         "p-6 text-xl font-bold text-purple uppercase"
                       )
                     }
