@@ -26,9 +26,9 @@ const Menu = () => {
           <div className="flex justify-between items-center">
             <Link to={"/"}>
               <img
-                src="../../public/vite.svg"
+                src="../../public/scool_logo.png"
                 alt="logo"
-                className=" h-14 w-14"
+                className=" h-20 w-36"
               />
             </Link>
             {/* */}
@@ -47,7 +47,7 @@ const Menu = () => {
                 <div>
                   <h3 className=" text-black text-2xl font-bold">Horaire</h3>
                   <p className=" text-green-600 text-xl font-semibold">
-                    (243) 998724266{" "}
+                    09:00 - 20:00 Everyday{" "}
                   </p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const Menu = () => {
                 <div>
                   <h3 className=" text-black text-2xl font-bold">Location</h3>
                   <p className=" text-green-600 text-xl font-semibold">
-                    (243) 998724266{" "}
+                    0123 Some Place{" "}
                   </p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Menu = () => {
                         isActive
                           ? " text-white text-xl font-bold border-white border-b-8"
                           : "text-gray-300 hover:bg-green-800 hover:text-white",
-                        "p-6 text-xl font-bold text-purple uppercase"
+                        "p-7 text-xl font-bold text-purple uppercase"
                       )
                     }
                   >
