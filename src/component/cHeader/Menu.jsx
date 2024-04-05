@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
@@ -13,12 +13,14 @@ const navigation = [
   { name: "Contact", to: "/contact" },
 ];
 
-
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
 const Menu = () => {
   return (
     <>
-      <div className="min-h-full ">
+      <div className="min-h-full md:mx-auto">
         {/* Top Bar begin */}
         <div className=" bg-slate-50 md:px-10 px-12 md:p-6 p-5">
           <div className="flex justify-between items-center">
@@ -64,9 +66,37 @@ const Menu = () => {
 
         {/* Les ongles du menu */}
         <div className=" bg-green-600">
+          <div className="flex justify-between items-center">
+            {/* Les liens de nav */}
+            <div className=" hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                {navigation.map((item) => (
+                  <NavLink
+                    key={item.name}
+                    to={item.to}
+                    className={({ isActive }) =>
+                      classNames(
+                        isActive
+                          ? " text-white text-xl font-bold border-white border-b-8"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "p-6 text-xl font-bold text-purple uppercase"
+                      )
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
 
+            {/* Le button de connexion */}
+            <div className=" mr-10">
+              <button className=" bg-black rounded-full px-4 py-4 text-xl text-slate-100">
+                Se connecter
+              </button>
+            </div>
+          </div>
         </div>
-
       </div>
     </>
   );
