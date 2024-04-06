@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom"
-import Menu from "../component/cHeader/Menu";
+import Navbar from "../component/cHeader/Navbar";
 
 
 const Home = () => {
   return (
     <>
       <Outlet />
-      <Menu />
+      <Navbar />
     </>
   );
 }
