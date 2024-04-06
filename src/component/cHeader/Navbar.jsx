@@ -16,6 +16,8 @@ const Navbar = () => {
                     className=" w-40 h-20"
                   />
                 </NavLink>
+
+                
               </div>
             </nav>
           </>
