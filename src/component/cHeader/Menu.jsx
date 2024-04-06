@@ -43,7 +43,7 @@ const Menu = () => {
                     </Link>
                     {/* */}
                     <div className=" hidden md:block">
-                      <div className="flex justify-center items-center gap-5">
+                      <div className="flex md:flex flex-col justify-center items-center gap-5">
                         <div className="flex gap-2">
                           <LiaPhoneVolumeSolid className=" font-extrabold text-6xl text-green-600" />
                           <div>
@@ -134,6 +134,69 @@ const Menu = () => {
                     </div>
                   </div>
                 </div>
+
+                <Disclosure.Panel className={" md:hidden"}>
+                  <div className="space-y-1 px-10 pb-3 pt-2 sm:px-3">
+                    {navigation.map((item) => (
+                      <NavLink
+                        key={item.name}
+                        to={item.to}
+                        className={({ isActive }) =>
+                          classNames(
+                            isActive
+                              ? "bg-green-300 text-white"
+                              : "text-purple hover:bg-green-300 hover:text-white",
+                            "block rounded-md px-3 py-2 text-lg font-medium"
+                          )
+                        }
+                      >
+                        {item.name}
+                      </NavLink>
+                    ))}
+                  </div>
+                  <div className="border-t border-green-700 pt-4">
+                    <div className="flex md:flex flex-col space-x-2">
+                      <div className="flex gap-2">
+                        <LiaPhoneVolumeSolid className=" font-extrabold text-xl text-green-600" />
+                        <div>
+                          <h3 className=" text-black text-xl font-bold">
+                            Appel
+                          </h3>
+                          <p className=" text-green-600 text-lg font-semibold">
+                            (243) 998724266{" "}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex gap-2">
+                        <MdOutlineWatchLater className=" font-extrabold text-6xl text-green-600" />
+                        <div>
+                          <h3 className=" text-black text-2xl font-bold">
+                            Horaire
+                          </h3>
+                          <p className=" text-green-600 text-xl font-semibold">
+                            09:00 - 20:00 Everyday{" "}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex gap-2">
+                        <IoLocationOutline className=" font-extrabold text-6xl text-green-600" />
+                        <div>
+                          <h3 className=" text-black text-2xl font-bold">
+                            Location
+                          </h3>
+                          <p className=" text-green-600 text-xl font-semibold">
+                            0123 Some Place{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-3 space-y-1 px-2">
+                      <button className=" bg-black font-semibold rounded-full px-7 py-5 text-2xl text-slate-100">
+                        Se connecter
+                      </button>
+                    </div>
+                  </div>
+                </Disclosure.Panel>
               </div>
             </>
           )}
