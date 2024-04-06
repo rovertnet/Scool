@@ -106,7 +106,7 @@ const Menu = () => {
                   <div className="flex justify-between items-center">
                     {/* Les liens de nav */}
                     <div className=" hidden md:block">
-                      <div className="ml-10 flex items-baseline space-x-4">
+                      <div className="ml-10 flex items-baseline space-x-2">
                         {navigation.map((item) => (
                           <NavLink
                             key={item.name}
@@ -146,7 +146,7 @@ const Menu = () => {
                             isActive
                               ? "bg-green-300 text-white"
                               : "text-purple hover:bg-green-300 hover:text-white",
-                            "block rounded-md px-3 py-2 text-lg font-medium"
+                            "block rounded-md px-3 py-2 text-lg font-medium text-green-700"
                           )
                         }
                       >
