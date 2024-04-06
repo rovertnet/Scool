@@ -159,32 +159,32 @@ const Menu = () => {
                       <div className="flex gap-2">
                         <LiaPhoneVolumeSolid className=" font-extrabold text-xl text-green-600" />
                         <div>
-                          <h3 className=" text-black text-xl font-bold">
+                          <h3 className=" text-black text-lg font-bold">
                             Appel
                           </h3>
-                          <p className=" text-green-600 text-lg font-semibold">
+                          <p className=" text-green-600 text-base font-semibold">
                             (243) 998724266{" "}
                           </p>
                         </div>
                       </div>
                       <div className="flex gap-2">
-                        <MdOutlineWatchLater className=" font-extrabold text-6xl text-green-600" />
+                        <MdOutlineWatchLater className=" font-extrabold text-xl text-green-600" />
                         <div>
-                          <h3 className=" text-black text-2xl font-bold">
+                          <h3 className=" text-black text-lg font-bold">
                             Horaire
                           </h3>
-                          <p className=" text-green-600 text-xl font-semibold">
+                          <p className=" text-green-600 text-base font-semibold">
                             09:00 - 20:00 Everyday{" "}
                           </p>
                         </div>
                       </div>
                       <div className="flex gap-2">
-                        <IoLocationOutline className=" font-extrabold text-6xl text-green-600" />
+                        <IoLocationOutline className=" font-extrabold text-xl text-green-600" />
                         <div>
-                          <h3 className=" text-black text-2xl font-bold">
+                          <h3 className=" text-black text-lg font-bold">
                             Location
                           </h3>
-                          <p className=" text-green-600 text-xl font-semibold">
+                          <p className=" text-green-600 text-base font-semibold">
                             0123 Some Place{" "}
                           </p>
                         </div>

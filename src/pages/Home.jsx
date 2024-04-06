@@ -1,14 +1,13 @@
-import { Outlet } from "react-router-dom"
-import Navbar from "../component/cHeader/Navbar";
-
+import { Outlet } from "react-router-dom";
+import Menu from "../component/cHeader/Menu";
 
 const Home = () => {
   return (
     <>
       <Outlet />
-      <Navbar />
+      <Menu />
     </>
   );
-}
+};
 
-export default Home
+export default Home;
