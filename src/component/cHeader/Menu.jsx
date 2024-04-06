@@ -128,7 +128,7 @@ const Menu = () => {
 
                     {/* Le button de connexion */}
                     <div className=" mr-10">
-                      <button className=" bg-black font-semibold rounded-full px-7 py-5 text-2xl text-slate-100">
+                      <button className=" bg-black font-semibold rounded-full px-7 py-3 text-2xl text-slate-100">
                         Se connecter
                       </button>
                     </div>
