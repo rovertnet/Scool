@@ -4,8 +4,11 @@ import Menu from "../component/cHeader/Menu";
 const Home = () => {
   return (
     <>
-      <Outlet />
       <Menu />
+
+      <Outlet />
+
+      
     </>
   );
 };
