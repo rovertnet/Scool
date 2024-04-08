@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <>
       <div>
-        <div className=" bg-center bg-cover p-36 w-full h-full bg-[url('../../public/medecin_banner.png')] my-5 md:my-52">
+        <div className=" block bg-center bg-cover p-36 w-full h-full bg-[url('../../public/medecin_banner.png')] my-5 md:my-52">
           <div className=" flex flex-col justify-start items-start gap-10">
             <span className=" font-medium text-md text-green-500">
               M U S D E E L

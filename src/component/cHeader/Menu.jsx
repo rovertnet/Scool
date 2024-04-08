@@ -191,7 +191,7 @@ const Menu = () => {
                       </div>
                     </div>
                     <div className="mt-3 space-y-1 px-10 pb-5">
-                      <button className=" bg-green-700 font-semibold rounded-md px-20 py-2 text-xl text-slate-100">
+                      <button className=" bg-green-700 font-semibold rounded-md px-24 py-2 text-xl text-slate-100">
                         Se connecter
                       </button>
                     </div>
