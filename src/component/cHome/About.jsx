@@ -6,9 +6,11 @@ const About = () => {
     <>
       <div className=" my-10 md:my-14 px-10 md:px-12">
         <div className="flex flex-col md:flex-row justify-center items-center">
-          <div className=" w-full md:w-4/4 h-full">
-            <img src="../../public/about.png" className="" alt="about image" />
-          </div>
+            <img
+              src="../../public/image/img1.png"
+              className="w-full md:w-2/3 h-full"
+              alt="about image"
+            />
 
           <div className=" w-full md:w-4/4 md:mt-4 mt-4">
             <h2 className=" uppercase font-bold md:text-2xl text-xl text-green-700">
