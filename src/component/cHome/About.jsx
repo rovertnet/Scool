@@ -4,7 +4,7 @@ import { MdOutlineSettingsInputComposite } from "react-icons/md";
 const About = () => {
   return (
     <>
-      <div className=" my-10 md:my-14 px-10 md:px-12 lg:my-14 lg:px-12 bloc2">
+      <div className=" my-10 md:my-14 px-10 md:px-12 lg:my-14 lg:px-12 block">
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-10">
           <>
             <img
