@@ -12,8 +12,19 @@ const Person = () => {
           </h3>
         </div>
         <div className=" flex flex-row justify-center items-center gap-5">
-          <div className="flex md:flex-col"></div>
-          <div className=""></div>
+          <div className="flex md:flex-col flex-row gap-3 bg-white border-[1px] border-white p-6 md:p-4">
+            <div className="bg-green-600 p-5 md:p-4">Texte</div>
+            <div className="bg-green-600 p-5 md:p-4">Texte</div>
+            <div className="bg-green-600 p-5 md:p-4">Texte</div>
+            <div className="bg-green-600 p-5 md:p-4">Texte</div>
+            <div className="bg-green-600 p-3 md:p-2">Texte</div>
+          </div>
+          <div className="">
+            <h2 className="text-xl font-bold text-slate-800">
+              Ensemble, nous sommes plus forts
+            </h2>
+            <div className=" grid grid-cols-2 "></div>
+          </div>
           <div className=""></div>
         </div>
       </div>
