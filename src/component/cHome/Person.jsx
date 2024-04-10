@@ -1,3 +1,4 @@
+import { VscWorkspaceTrusted } from "react-icons/vsc";
 
 const Person = () => {
   return (
@@ -23,13 +24,65 @@ const Person = () => {
             <h2 className="text-xl font-bold text-slate-800">
               Ensemble, nous sommes plus forts
             </h2>
-            <div className=" grid grid-cols-2 "></div>
+            <div className=" grid grid-cols-2 gap-5">
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+              <div className="flex space-x-3">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Texte</span>
+              </div>
+            </div>
+            <div className=" md:my-3 my-5">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                placerat scelerisque tortor ornare ornare. Quisque placerat
+                scelerisque tortor ornare ornare Convallis felis vitae tortor
+                augue. Velit nascetur proin massa in. Consequat faucibus
+                porttitor enim et.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                placerat scelerisque. Convallis felis vitae tortor augue. Velit
+                nascetur proin massa in.
+              </p>
+            </div>
           </div>
-          <div className=""></div>
+          <div className="grid md:grid-cols-1 grid-rows-2 gap-5">
+            <div>
+              <img
+                src="../../public/image/1.png"
+                alt=""
+                className=" md:h-[250px] md:w-[] "
+              />
+              <img
+                src="../../public/image/2.png"
+                alt=""
+                className="h-[250px]"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Person
+export default Person;
