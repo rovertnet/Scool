@@ -15,7 +15,7 @@ const About = () => {
           </>
 
           <div className=" w-full md:w-4/4 lg:w-4/4 md:mt-0 md:mb-5 lg:mb-5 mt-5 lg:mt-2">
-            <h2 className=" uppercase font-bold md:text-2xl text-xl text-green-700">
+            <h2 className=" uppercase font-bold md:text-2xl text-xl text-green-700 text-center md:text-start">
               Bienvenue chez musdeel
             </h2>
             <p className="md:text-lg text-xl text-slate-800 font-semibold text-justify md:my-6 my-4">
