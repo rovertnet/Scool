@@ -16,6 +16,7 @@ const Question = () => {
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-100 ">
             <h2 className="text-xl md:text-lg font-bold text-black flex justify-between">
               01. Quelles sont nos offres ?
+              
             </h2>
           </div>
         </div>
