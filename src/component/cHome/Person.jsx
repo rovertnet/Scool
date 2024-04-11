@@ -12,7 +12,7 @@ const Person = () => {
             Notre personnalité
           </h3>
         </div>
-        <div className=" flex flex-row justify-between items-center gap-5 md:mt-5 mt-10 ">
+        <div className=" flex flex-row justify-center items-center gap-5 md:mt-5 mt-10 ">
           <div className="flex md:flex-col flex-row gap-3 bg-white border-[1px] shadow-md border-slate-500 p-6 md:px-14">
             <div className="bg-green-600 p-5 md:px-14">Texte</div>
             <div className="bg-green-600 p-5 md:px-14">Texte</div>
