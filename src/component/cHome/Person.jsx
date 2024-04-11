@@ -1,7 +1,6 @@
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { MdFavoriteBorder } from "react-icons/md";
 
-
 const Person = () => {
   return (
     <>
@@ -14,46 +13,52 @@ const Person = () => {
             Notre personnalité
           </h3>
         </div>
-        <div className=" flex flex-row justify-center items-center gap-5 md:mt-5 mt-10 ">
-          <div className="flex md:flex-col flex-row gap-0  p-6 md:px-14">
-            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600  p-5 md:px-14">Sérieuse</div>
-            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
-            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600 md:px-12">Texte</div>
+        <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
+          <div className="flex md:flex-col flex-row justify-center md:px-12 mx-10">
+            <div className="bg-slate-100 p-3 md:px-12">
+              <MdFavoriteBorder className=" text-slate-800 text-center" />
+              Traditionnelle
+            </div>
+            <div className="bg-green-600 text-center p-3 md:px-12 text-slate-100">
+              <MdFavoriteBorder className=" text-slate-100 text-center" />
+              Sérieuse
+            </div>
+            <div className="bg-slate-100 p-5 md:px-12">Texte</div>
+            <div className="bg-slate-100 p-5 md:px-12">Texte</div>
+            <div className="bg-green-600 md:px-10">Texte</div>
           </div>
           <div className=" md:py-10 py-7">
-            <h2 className="text-xl font-bold text-slate-800 md:pt-8 pt-7">
+            <h2 className="text-lg md:text-xl font-bold text-slate-800 md:py-8 py-7">
               Ensemble, nous sommes plus forts
             </h2>
-            <div className=" grid grid-cols-2 gap-5 md:my-5">
+            <div className=" grid grid-cols-2 gap-5 md:my-5 mb-5">
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
               <div className="flex space-x-3">
-                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
                 <span>Texte</span>
               </div>
             </div>
             <div className=" my-2 md:max-w-lg text-justify">
-              <p className="md:py-2">
+              <p className="md:py-2 py-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 placerat scelerisque tortor ornare ornare. Quisque placerat
                 scelerisque tortor ornare ornare Convallis felis vitae tortor
@@ -67,16 +72,16 @@ const Person = () => {
               </p>
             </div>
           </div>
-          <div className="grid md:grid-cols-1 grid-rows-2 gap-5">
+          <div className="grid md:grid-cols-1 grid-cols-2 gap-5">
             <img
               src="../../public/image/1.png"
               alt=""
-              className=" md:h-[180px] md:w-[200px]"
+              className=" md:h-[180px] md:w-[200px] w-full"
             />
             <img
               src="../../public/image/2.png"
               alt=""
-              className="h-[180px] md:w-[200px]"
+              className="md:h-[180px] md:w-[200px] w-full"
             />
           </div>
         </div>
