@@ -20,7 +20,7 @@ const Question = () => {
               01. Quelles sont nos offres ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
-            <div className=""></div>
+            <div className="hidden md:hidden"></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -28,7 +28,13 @@ const Question = () => {
               02. Comment devenir partenaire de la MUSDEEL ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
-            <div className=""></div>
+            <div className="hidden md:hidden">
+              The main feature of Whitespace UI that it saves you time. If it
+              saves you time, it automatically saves you money. You no longer
+              have to create a new UI kit from scratch before starting each
+              project. Use Whitespace UI on an unlimited number of projects and
+              save hundreds of hours and thousands of dollars.
+            </div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -41,18 +47,18 @@ const Question = () => {
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
             <h2 className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
-              04. Qu est-ce qui se passera en cas de décès d un adhérent ?
+              04. Qu'est-ce qui se passera en cas de décès d un adhérent ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
-            <div className=""></div>
+            <div className="hidden md:hidden"></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
             <h2 className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
-              05.Quelles sont les méthodes de paiement viables dans la MUSDEEL ?
+              05. Quelles sont les méthodes de paiement viables dans la MUSDEEL ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
-            <div className=""></div>
+            <div className="hidden md:hidden"></div>
           </div>
         </div>
       </div>
