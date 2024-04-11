@@ -61,8 +61,8 @@ const About = () => {
               pour satisfaire nos sociétaires et nos partenaires. En résumé : la
               qualité de service
             </p>
-            <div className=" mt-5 md:mt-2">
-              <button className=" text-white md:rounded-full rounded-md text-xl px-20 md:px-16 py-3 md:py-2 font-semibold bg-green-700">
+            <div className=" mt-5 md:mt-28">
+              <button className=" text-white md:rounded-lg rounded-md text-xl px-20 md:px-16 py-3 md:py-2 font-semibold bg-green-700">
                 En savoir plus
               </button>
             </div>
