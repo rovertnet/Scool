@@ -35,6 +35,20 @@ const Question = () => {
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
           </div>
+
+          <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
+            <h2 className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+              04. Qu est-ce qui se passera en cas de décès d un adhérent ?
+              <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
+            </h2>
+          </div>
+
+          <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
+            <h2 className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+              05.Quelles sont les méthodes de paiement viables dans la MUSDEEL ?
+              <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
+            </h2>
+          </div>
         </div>
       </div>
     </>
