@@ -9,7 +9,7 @@ const About = () => {
           <>
             <img
               src="../../public/image/img1.png"
-              className="w-full md:w-1/1 h-full"
+              className="w-full md:w-1/1 h-full rounded-lg"
               alt="about image"
             />
           </>
@@ -62,7 +62,7 @@ const About = () => {
               qualité de service
             </p>
             <div className=" mt-5 md:mt-2">
-              <button className=" text-white md:rounded-full rounded-md text-xl px-20 md:px-16 py-3 md:py-1 font-semibold bg-green-700">
+              <button className=" text-white md:rounded-full rounded-md text-xl px-20 md:px-16 py-3 md:py-2 font-semibold bg-green-700">
                 En savoir plus
               </button>
             </div>
