@@ -20,6 +20,7 @@ const Question = () => {
               01. Quelles sont nos offres ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
+            <div className=""></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -27,6 +28,7 @@ const Question = () => {
               02. Comment devenir partenaire de la MUSDEEL ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
+            <div className=""></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -34,6 +36,7 @@ const Question = () => {
               03. Quelle est la politique de remboursement ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
+            <div className=" hidden md:hidden"></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -41,6 +44,7 @@ const Question = () => {
               04. Qu est-ce qui se passera en cas de décès d un adhérent ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
+            <div className=""></div>
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
@@ -48,6 +52,7 @@ const Question = () => {
               05.Quelles sont les méthodes de paiement viables dans la MUSDEEL ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
             </h2>
+            <div className=""></div>
           </div>
         </div>
       </div>
