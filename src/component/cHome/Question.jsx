@@ -3,7 +3,7 @@ const Question = () => {
     <>
       <div className="mx-10 md:mx-10">
         <div className="text-center md:py-10 py-10">
-          <h1 className=" text-xl md:text-2xl text-center font-extrabold">
+          <h1 className=" text-xl md:text-2xl text-center font-extrabold uppercase">
             Questions fréquemment posées
           </h1>
           <p className=" md:pt-3 pt-3">
