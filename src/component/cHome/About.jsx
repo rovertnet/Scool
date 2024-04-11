@@ -18,34 +18,34 @@ const About = () => {
             <h2 className=" uppercase font-bold md:text-2xl text-xl text-green-700">
               Bienvenue chez musdeel
             </h2>
-            <p className="md:text-lg text-2xl text-slate-800 font-semibold text-justify md:my-6 my-4">
+            <p className="md:text-lg text-xl text-slate-800 font-semibold text-justify md:my-6 my-4">
               Nous assurons la proximité avec un accompagnement à chaque étape
               des soins, jusqu’à la guérison du patient scolarisé et à jour dans
               ses cotisations
             </p>
-            <div className=" grid grid-cols-2 md:grid-cols-2 md:gap-3 gap-5 ">
-              <p className=" flex md:space-x-5 space-x-5 text-lg text-slate-700 ">
-                <MdOutlineSettingsInputComposite className=" text-xl text-green-500" />
-                Professionalisme
+            <div className=" grid grid-cols-2 md:grid-cols-2 md:gap-3 gap-8 ">
+              <p className=" flex space-x-3 text-lg text-slate-700 ">
+                <VscWorkspaceTrusted className=" text-xl text-green-500" />
+                <span>Professionalisme</span>
               </p>
               <p className=" flex text-lg text-slate-700 space-x-3">
                 <MdOutlineSettingsInputComposite className=" text-xl text-green-500" />
-                Cohésion
+                <span>Cohésion</span>
               </p>
               <p className=" flex space-x-3 text-lg text-slate-700">
                 <MdOutlineSettingsInputComposite className=" text-xl text-green-500" />
-                Proximité
+                <span>Proximité</span>
               </p>
               <p className=" flex space-x-3 text-lg text-slate-700 ">
                 <MdOutlineSettingsInputComposite className=" text-xl text-green-500" />
-                Respect
+                <span>Respect</span>
               </p>
               <p className=" flex space-x-3 text-lg text-slate-700 ">
                 <VscWorkspaceTrusted className=" text-xl text-green-500" />
-                Confiance
+                <span>Confiance</span>
               </p>
             </div>
-            <p className=" font-medium md:text-lg sm:text-lg text-2xl text-justify text-slate-800 md:my-6 my-4">
+            <p className=" font-medium md:text-lg sm:text-lg text-xl text-justify text-slate-800 md:my-6 my-4">
               Nous accompagnons nos adhérents dès la 4è années de scolarité
               jusqu’à la fin du cycle universitaire et/ou les apprentis inscrits
               régulièrement dans une formation professionnelle. Notre marque
@@ -53,7 +53,7 @@ const About = () => {
               sommes universels dans notre collaboration avec les adhérents sans
               distinction de la province d’origine
             </p>
-            <p className=" font-medium md:text-lg sm:text-lg text-2xl text-justify text-slate-800">
+            <p className=" font-medium md:text-lg sm:text-lg text-xl text-justify text-slate-800">
               Nous assurons la qualité de service à nos adhérents et à nos
               partenaires afin de vendre une bonne image de notre structure. Ce
               sérieux se traduit par l’accompagnement rigoureux de nos adhérents
