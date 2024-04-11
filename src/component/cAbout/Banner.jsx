@@ -2,13 +2,13 @@ const Banner = () => {
   return (
     <>
       <div>
-        <div className=" md:bg-cover bg-cover bg-center md:p-36 p-36 w-full h-full bg-[url('../../public/123.jpg')] mt-5 md:mt-52">
-          <div className=" flex flex-col justify-start items-start gap-10">
-            <div>
-              <span className=" font-medium text-md text-green-500">
+        <div className=" bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply mt-10 py-20 px-10 md:mt-40 md:px-10 md:py-20">
+          <div className=" flex flex-col justify-center items-center gap-10">
+            <div className="text-center">
+              <span className=" md:py-4 py-3 font-medium text-md text-green-500 md:text-center text-center">
                 M U S D E E L
               </span>
-              <p className=" font-extrabold text-4xl text-slate-300">
+              <p className=" md:py-4 py-3 font-extrabold text-4xl md:text-center text-center text-slate-300">
                 Retrouvons la santé <br /> ensemble
               </p>
               <div className="md:pt-3 pt-4">
