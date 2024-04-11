@@ -1,4 +1,6 @@
 import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { MdFavoriteBorder } from "react-icons/md";
+
 
 const Person = () => {
   return (
@@ -13,12 +15,12 @@ const Person = () => {
           </h3>
         </div>
         <div className=" flex flex-row justify-center items-center gap-5 md:mt-5 mt-10 ">
-          <div className="flex md:flex-col flex-row gap-3 bg-white border-[1px] shadow-md border-slate-500 p-6 md:px-14">
-            <div className="bg-green-600 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600 p-5 md:px-14">Texte</div>
-            <div className="bg-green-600 p-3 md:px-12">Texte</div>
+          <div className="flex md:flex-col flex-row gap-0  p-6 md:px-14">
+            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
+            <div className="bg-green-600  p-5 md:px-14">Sérieuse</div>
+            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
+            <div className="bg-slate-100 p-5 md:px-14">Texte</div>
+            <div className="bg-green-600 md:px-12">Texte</div>
           </div>
           <div className=" md:py-10 py-7">
             <h2 className="text-xl font-bold text-slate-800 md:pt-8 pt-7">
@@ -50,8 +52,8 @@ const Person = () => {
                 <span>Texte</span>
               </div>
             </div>
-            <div className=" my-5 md:max-w-lg text-justify">
-              <p className="md:py-6">
+            <div className=" my-2 md:max-w-lg text-justify">
+              <p className="md:py-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                 placerat scelerisque tortor ornare ornare. Quisque placerat
                 scelerisque tortor ornare ornare Convallis felis vitae tortor
