@@ -24,7 +24,7 @@ const About = () => {
               ses cotisations
             </p>
             <div className=" grid grid-cols-2 md:grid-cols-2 md:gap-3 gap-5 ">
-              <p className=" flex md:space-x-5 space-x-3 text-lg text-slate-700 ">
+              <p className=" flex md:space-x-5 space-x-5 text-lg text-slate-700 ">
                 <MdOutlineSettingsInputComposite className=" text-xl text-green-500" />
                 Professionalisme
               </p>
