@@ -5,11 +5,15 @@ import { BiMinus } from "react-icons/bi";
 
 const Question = () => {
   const [viewQuestionOne, setViewQuestionOne] = useState(false);
+  const [viewQuestionTwo, setViewQuestionTwo] = useState(false);
 
   const viewQuestOne = () => {
     setViewQuestionOne(!viewQuestionOne);
   };
 
+  const viewQuestTwo = () => {
+    setViewQuestionTwo(!viewQuestionTwo);
+  };
   return (
     <>
       <div className="mx-10 md:mx-10 md:my-10 my5">
@@ -29,9 +33,9 @@ const Question = () => {
               01. Quelles sont nos offres ?
               <button
                 className=" cursor-pointer hover:bg-slate-400 hover:p-2 hover:md:p-2 hover:rounded-full"
-                onClick={viewQuestOne}
+                onClick={viewQuestTwo}
               >
-                {viewQuestionOne ? (
+                {viewQuestionTwo ? (
                   <BiMinus className=" text-2xl md:text-2xl font-bold text-black" />
                 ) : (
                   <FaPlus className=" text-2xl md:text-2xl font-bold text-black" />
@@ -40,7 +44,7 @@ const Question = () => {
             </div>
             <div
               className={`${
-                viewQuestionOne
+                viewQuestionTwo
                   ? "text-justify md:px-10 px-10 md:pb-3 pb-5"
                   : "hidden md:hidden "
               }`}
