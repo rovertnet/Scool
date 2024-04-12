@@ -32,7 +32,7 @@ const Question = () => {
             <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               01. Quelles sont nos offres ?
               <button
-                className=" cursor-pointer hover:bg-slate-400 hover:p-2 hover:md:p-2 hover:rounded-full"
+                className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
                 onClick={viewQuestTwo}
               >
                 {viewQuestionTwo ? (
@@ -61,7 +61,7 @@ const Question = () => {
             <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               02. Comment devenir partenaire de la MUSDEEL ?
               <button
-                className=" cursor-pointer hover:bg-slate-400 hover:p-2 hover:md:p-2 hover:rounded-full"
+                className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
                 onClick={viewQuestOne}
               >
                 {viewQuestionOne ? (
@@ -89,11 +89,33 @@ const Question = () => {
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
             <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               03. Quelle est la politique de remboursement ?
+              <button
+                className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
+                onClick={viewQuestOne}
+              >
+                {viewQuestionOne ? (
+                  <BiMinus className=" text-2xl md:text-2xl font-bold text-black" />
+                ) : (
+                  <FaPlus className=" text-2xl md:text-2xl font-bold text-black" />
+                )}
+              </button>
             </div>
-            <div className=" hidden md:hidden"></div>
+            <div
+              className={`${
+                viewQuestionOne
+                  ? "text-justify md:px-10 px-10 md:pb-3 pb-5"
+                  : "hidden md:hidden "
+              }`}
+            >
+              The main feature of Whitespace UI that it saves you time. If it
+              saves you time, it automatically saves you money. You no longer
+              have to create a new UI kit from scratch before starting each
+              project. Use Whitespace UI on an unlimited number of projects and
+              save hundreds of hours and thousands of dollars.
+            </div>
           </div>
 
-          <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
+          <div className="border-[1px] border-slate-200 rounded-lg bg-slate-50 ">
             <h2 className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               04. Qu'est-ce qui se passera en cas de décès d un adhérent ?
               <VscWorkspaceTrusted className=" text-2xl md:text-xl text-green-500" />
