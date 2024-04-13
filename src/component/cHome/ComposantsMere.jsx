@@ -4,7 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Person from "./Person";
 import Question from "./Question";
-import SlidePartenaire from "./SlidePartenaire";
+import Partenaire from "./Partenaire";
 
 const ComposantsMere = () => {
   return (
@@ -14,7 +14,7 @@ const ComposantsMere = () => {
       <Person />
       <Question />
       <Contact />
-      <SlidePartenaire />
+      <Partenaire />
 
       <MdOutlet />
     </>
