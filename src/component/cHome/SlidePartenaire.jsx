@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import {Autoplay} from "swiper";
 
 const SlidePartenaire = () => {
   return (
