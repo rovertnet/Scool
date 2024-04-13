@@ -3,7 +3,7 @@ const Partenaire = () => {
   return (
     <>
       <div className="md:mx-10 mx-10 md:my-10 my-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 ">
           <div className="flex space-x-3">
             <span className=" text-2xl md:text-2xl font-bold text-black">Noviexar</span>
           </div>
