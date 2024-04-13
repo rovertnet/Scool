@@ -1,6 +1,7 @@
-
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
 import "swiper/css";
 
 const SlidePartenaire = () => {
@@ -11,21 +12,18 @@ const SlidePartenaire = () => {
           Nos Partenaires
         </h2>
         <div className="flex justify-center items-center text-black font-extrabold">
-          <div className=" md:max-w-5xl max-w-3xl">
+          <div className="max-w-5xl">
             <Swiper
-              spaceBetween={100}
+              spaceBetween={50}
               slidesPerView={3}
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
-              <SwiperSlide>Noviexar</SwiperSlide>
-              <SwiperSlide>Skyewave</SwiperSlide>
-              <SwiperSlide>NexaCore</SwiperSlide>
-              <SwiperSlide>EliteXcel</SwiperSlide>
-              <SwiperSlide>Zenithron</SwiperSlide>
-              <SwiperSlide>Ennovatek</SwiperSlide>
-              <SwiperSlide>Infinitumix</SwiperSlide>
-              <SwiperSlide>SpectraFuse</SwiperSlide>
+              <SwiperSlide>Slide 1</SwiperSlide>
+              <SwiperSlide>Slide 2</SwiperSlide>
+              <SwiperSlide>Slide 3</SwiperSlide>
+              <SwiperSlide>Slide 4</SwiperSlide>
+              ...
             </Swiper>
           </div>
         </div>
