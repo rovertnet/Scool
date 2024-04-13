@@ -21,10 +21,21 @@ const SlidePartenaire = () => {
             >
               <SwiperSlide>
                 <div className=" flex">
-                  <div className={'card'}></div>
+                  <div className={"card"}></div>
                 </div>
               </SwiperSlide>
-              ...
+
+              <SwiperSlide>
+                <div className=" flex">
+                  <div className={"card"}></div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className=" flex">
+                  <div className={"card"}></div>
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
