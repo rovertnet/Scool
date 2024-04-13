@@ -13,8 +13,9 @@ const Contact = () => {
             que vous recherchiez. Veuillez nous contacter et nous serons heureux
             de vous aider.
           </p>
-          <button className=" bg-slate-900 text-lg md:text-xl font-semibold text-slate-50 flex space-x-3 md:space-x-3">
-            <LiaPhoneVolumeSolid className=" font-extrabold text-6xl text-green-600" />
+          <button className=" bg-slate-900 text-lg md:text-xl font-semibold text-slate-50 flex gap-4 rounded-lg px-7 md:px-7 py-4 md:py-3">
+            <LiaPhoneVolumeSolid className=" font-bold text-lg md:text-4xl text-slate-50" />
+            Contactez-nous
           </button>
         </div>
       </div>
