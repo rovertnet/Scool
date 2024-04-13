@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import { Autoplay } from "swiper";
+import { autoplay } from "swiper"
 
 
 const SlidePartenaire = () => {
@@ -16,7 +16,7 @@ const SlidePartenaire = () => {
         <div className="flex justify-center items-center text-black font-extrabold">
           <div className="max-w-5xl">
             <Swiper
-              spaceBetween={50}
+              spaceBetween={30}
               slidesPerView={3}
               onSlideChange={() => console.log("slide change")}
               loop={true}
@@ -25,7 +25,7 @@ const SlidePartenaire = () => {
               autoplay={{
                 delay: 3000,
               }}
-              modules={[ Autoplay ]}
+              modules={[ autoplay ]}
             >
               <SwiperSlide>
                 <div className=" flex">
