@@ -9,13 +9,14 @@ import Question from "./Question";
 const ComposantsMere = () => {
   return (
     <>
-      <MdOutlet />
       <Banner />
       <About />
       <Person />
       <Question />
       <Contact />
       <Partenaire />
+
+      <MdOutlet />
     </>
   );
 }
