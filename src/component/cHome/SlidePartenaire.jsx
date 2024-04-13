@@ -20,7 +20,7 @@ const SlidePartenaire = () => {
               onSwiper={(swiper) => console.log(swiper)}
             >
               <SwiperSlide>
-                <div className="h-96 flex">
+                <div className=" flex">
                   <div className={'card'}></div>
                 </div>
               </SwiperSlide>
