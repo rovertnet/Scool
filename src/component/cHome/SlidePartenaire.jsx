@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import { autoplay } from "swiper"
 
 
 const SlidePartenaire = () => {
@@ -25,7 +24,6 @@ const SlidePartenaire = () => {
               autoplay={{
                 delay: 3000,
               }}
-              modules={[ autoplay ]}
             >
               <SwiperSlide>
                 <div className=" flex">
