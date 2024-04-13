@@ -18,7 +18,12 @@ const SlidePartenaire = () => {
               spaceBetween={50}
               slidesPerView={3}
               onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
+              loop={true}
+              centeredSlides={true}
+              speed={800}
+              autoplay={{
+                delay: 3000,
+              }}
             >
               <SwiperSlide>
                 <div className=" flex">
@@ -35,6 +40,16 @@ const SlidePartenaire = () => {
                   <div className={"card"}>
                     <span className=" text-2xl md:text-2xl font-bold text-black">
                       Skyewave
+                    </span>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className=" flex">
+                  <div className={"card"}>
+                    <span className=" text-2xl md:text-2xl font-bold text-black">
+                      NexaCore
                     </span>
                   </div>
                 </div>
