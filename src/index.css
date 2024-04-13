@@ -10,5 +10,5 @@
   @apply cursor-pointer md:px-10 px-10 md:py-8 py-7 bg-green-300 rounded-lg
 }
 .card-active{
-  
+  @apply h-32 text-center
 }
