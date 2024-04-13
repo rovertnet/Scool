@@ -2,9 +2,9 @@ import { MdOutlet } from "react-icons/md";
 import Banner from "../cAbout/Banner";
 import About from "./About";
 import Contact from "./Contact";
-import Partenaire from "./Partenaire";
 import Person from "./Person";
 import Question from "./Question";
+import SlidePartenaire from "./SlidePartenaire";
 
 const ComposantsMere = () => {
   return (
@@ -14,7 +14,7 @@ const ComposantsMere = () => {
       <Person />
       <Question />
       <Contact />
-      <Partenaire />
+      <SlidePartenaire />
 
       <MdOutlet />
     </>
