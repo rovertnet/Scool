@@ -1,10 +1,7 @@
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 const SlidePartenaire = () => {
   return (
@@ -16,12 +13,8 @@ const SlidePartenaire = () => {
         <div className="flex justify-center items-center text-black font-extrabold">
           <div className=" md:max-w-5xl max-w-3xl">
             <Swiper
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={100}
               slidesPerView={3}
-              navigation
-              pagination={{ clickable: true }}
-              scrollbar={{ draggable: false }}
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
