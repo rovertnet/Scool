@@ -32,14 +32,14 @@ const Question = () => {
   return (
     <>
       <div className="mx-10 md:mx-32 md:my-10 my-5">
-        <div className="text-center md:py-10 py-10">
+        <div className="flex flex-col justify-center items-center md:py-10 py-10">
           <h1 className=" text-lg md:text-2xl text-center font-extrabold uppercase">
             Questions fréquemment posées
           </h1>
-          <p className=" md:pt-3 pt-3 md:text-base text-sm">
-            Nous avons essayé de répondre aux questions les plus courantes.{" "}
-            <br /> Si vous en avez d autres, n hésitez pas à contacter notre{" "}
-            <br /> équipe amicale.
+          <p className=" md:pt-3 pt-3 md:text-base text-sm md:max-w-md max-w-lg text-center">
+            Nous avons essayé de répondre aux questions les plus courantes. 
+            Si vous en avez d autres, n hésitez pas à contacter notre
+             équipe amicale.
           </p>
         </div>
         <div className=" grid grid-cols-1 gap-10">
