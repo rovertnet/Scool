@@ -1,6 +1,7 @@
 import Banner from "../cAbout/Banner";
 import About from "./About";
 import Contact from "./Contact";
+import Partenaire from "./Partenaire";
 import Person from "./Person";
 import Question from "./Question";
 
@@ -12,6 +13,7 @@ const ComposantsMere = () => {
       <Person />
       <Question />
       <Contact />
+      <Partenaire />
     </>
   );
 }
