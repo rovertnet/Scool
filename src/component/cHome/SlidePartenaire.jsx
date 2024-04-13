@@ -22,21 +22,31 @@ const SlidePartenaire = () => {
             >
               <SwiperSlide>
                 <div className=" flex">
-                  <div className={"card"}>
-                    
+                  <div className={"card card-active"}>
+                    <span className=" text-2xl md:text-2xl font-bold text-black">
+                      Noviexar
+                    </span>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className=" flex">
-                  <div className={"card"}></div>
+                  <div className={"card"}>
+                    <span className=" text-2xl md:text-2xl font-bold text-black">
+                      Skyewave
+                    </span>
+                  </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className=" flex">
-                  <div className={"card"}></div>
+                  <div className={"card"}>
+                    <span className=" text-2xl md:text-2xl font-bold text-black">
+                      NexaCore
+                    </span>
+                  </div>
                 </div>
               </SwiperSlide>
             </Swiper>
