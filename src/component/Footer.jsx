@@ -21,28 +21,77 @@ const Footer = () => {
                 santé qui ne sont pas pris en charge par la Sécurité sociale
               </p>
               <div className="flex space-x-3 md:space-x-3">
-                <FaSquareXTwitter className="font-bold text-xl md:text-xl text-black" />
-                <BsFacebook className="font-bold text-xl md:text-xl text-blue-700" />
-                <FaSquareInstagram className="font-bold text-xl md:text-xl text-red-800" />
-                <FaLinkedin className="font-bold text-xl md:text-xl text-blue-600" />
+                <FaSquareXTwitter className="font-bold text-xl md:text-2xl text-white" />
+                <BsFacebook className="font-bold text-xl md:text-2xl text-blue-700" />
+                <FaSquareInstagram className="font-bold text-xl md:text-2xl text-red-800" />
+                <FaLinkedin className="font-bold text-xl md:text-2xl text-blue-600" />
               </div>
             </div>
-            <div className="flex flex-col gap-5">
-              <Link to={"/"}>Accueil</Link>
-              <Link to={"/solution"}>Solution</Link>
-              <Link to={"/about"}>A propos</Link>
-              <Link to={"/faq"}>FAQ</Link>
-              <Link to={"/blog"}>Blog</Link>
-              <Link to={"/contact"}>Contact</Link>
-            </div>
-            <div className="flex flex-col gap-5">
-              <Link to={"/"}>Centre d'appel</Link>
-              <Link to={"/"}>Adhésion</Link>
-              <Link to={"/"}>Signaler un problème</Link>
-              <Link to={"/"}>Chat support</Link>
-            </div>
-            <div className="flex flex-col gap-5">
-              
+
+            <div className="flex justify-between items-center gap-40">
+              <div className="flex flex-col gap-2">
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Accueil
+                </Link>
+                <Link
+                  className=" md:text-xl text-lg text-slate-100"
+                  to={"/solution"}
+                >
+                  Solution
+                </Link>
+                <Link
+                  className=" md:text-xl text-lg text-slate-100"
+                  to={"/about"}
+                >
+                  A propos
+                </Link>
+                <Link
+                  className=" md:text-xl text-lg text-slate-100"
+                  to={"/faq"}
+                >
+                  FAQ
+                </Link>
+                <Link
+                  className=" md:text-xl text-lg text-slate-100"
+                  to={"/blog"}
+                >
+                  Blog
+                </Link>
+                <Link
+                  className=" md:text-xl text-lg text-slate-100"
+                  to={"/contact"}
+                >
+                  Contact
+                </Link>
+              </div>
+              <div className="flex flex-col gap-5">
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Centre d'appel
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Adhésion
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Signaler un problème
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Chat support
+                </Link>
+              </div>
+              <div className="flex flex-col gap-5">
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Centre d'appel
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Adhésion
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Signaler un problème
+                </Link>
+                <Link className=" md:text-xl text-lg text-slate-100" to={"/"}>
+                  Chat support
+                </Link>
+              </div>
             </div>
           </div>
         </div>
