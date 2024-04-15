@@ -4,6 +4,8 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { MdOutlineWatchLater } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 
 const Footer = () => {
@@ -22,14 +24,14 @@ const Footer = () => {
                 santé qui ne sont pas pris en charge par la Sécurité sociale
               </p>
               <div className="flex space-x-3 md:space-x-3">
-                <FaSquareXTwitter className="font-bold text-xl md:text-3xl text-white" />
-                <BsFacebook className="font-bold text-xl md:text-3xl text-blue-700" />
-                <FaSquareInstagram className="font-bold text-xl md:text-3xl text-red-800" />
-                <FaLinkedin className="font-bold text-xl md:text-3xl text-blue-600" />
+                <FaSquareXTwitter className="font-bold text-2xl md:text-3xl text-white" />
+                <BsFacebook className="font-bold text-2xl md:text-3xl text-blue-700" />
+                <FaSquareInstagram className="font-bold text-2xl md:text-3xl text-red-800" />
+                <FaLinkedin className="font-bold text-2xl md:text-3xl text-blue-600" />
               </div>
             </div>
 
-            <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-8 items-start md:mt-2">
+            <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-12 items-start md:mt-2">
               <div className="flex flex-col gap-2">
                 <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
                   Accueil
@@ -80,18 +82,18 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="flex flex-col gap-5">
-                <div className=" md:text-base text-lg text-slate-100 flex space-x-2">
-
+                <div className=" md:text-base text-lg text-slate-100 flex gap-3">
+                  <MdOutlineWatchLater className=" font-bold text-2xl md:text-2xl text-slate-50" />
                   contact@musdeel.com
                 </div>
-                <div className=" md:text-base text-lg text-slate-100">
-                  Adhésion
+                <div className=" flex gap-3 md:text-base text-lg text-slate-100">
+                  <LiaPhoneVolumeSolid className=" font-bold text-2xl md:text-2xl text-slate-50" />
+                  +243 000 000 000
                 </div>
-                <div className=" md:text-base text-lg text-slate-100">
-                  Signaler un problème
-                </div>
-                <div className=" md:text-base text-lg text-slate-100">
-                  Chat support
+                <div className=" flex gap-3 md:text-base text-lg text-slate-100">
+                  <IoLocationOutline className=" font-bold text-2xl md:text-2xl text-slate-50" />
+                  593, Dalhias , 10ème rue Résidentiel <br /> | Limete Signaler un
+                  problème
                 </div>
               </div>
             </div>
