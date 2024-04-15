@@ -29,7 +29,8 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-5">
               <Link to={"/"}>Accueil</Link>
-              <Link to={"/"}>Solution</Link>
+              <Link to={"/solution"}>Solution</Link>
+              <Link to={"/solution"}></Link>
             </div>
             <div className="flex flex-col gap-5"></div>
             <div className="flex flex-col gap-5"></div>
