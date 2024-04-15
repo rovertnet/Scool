@@ -2,6 +2,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -27,7 +28,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-5">
-              
+              <Link to={"/"}>Accueil</Link>
+              <Link to={"/"}>Solution</Link>
             </div>
             <div className="flex flex-col gap-5"></div>
             <div className="flex flex-col gap-5"></div>
