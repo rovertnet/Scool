@@ -30,9 +30,17 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <Link to={"/"}>Accueil</Link>
               <Link to={"/solution"}>Solution</Link>
-              <Link to={"/solution"}></Link>
+              <Link to={"/about"}>A propos</Link>
+              <Link to={"/faq"}>FAQ</Link>
+              <Link to={"/blog"}>Blog</Link>
+              <Link to={"/contact"}>Contact</Link>
             </div>
-            <div className="flex flex-col gap-5"></div>
+            <div className="flex flex-col gap-5">
+              <Link to={"/"}>Accueil</Link>
+              <Link to={"/"}>Solution</Link>
+              <Link to={"/"}>A propos</Link>
+              <Link to={"/"}>FAQ</Link>
+            </div>
             <div className="flex flex-col gap-5"></div>
           </div>
         </div>
