@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="max-w-screen-2xl">
+      <div className="max-w-screexl">
         <div className="bg-slate-900 md:px-10 px-10 md:py-8 py-8">
           <h1 className="text-start font-bold text-xl md:text-2xl text-white leading-normal">
             LA MUSDEEL
           </h1>
-          <div className="flex flex-col md:flex-row gap-10">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-16">
             <div className="flex flex-col gap-5">
-              <p className="text-slate-100 font-medium md:text-base text-justify max-w-lg text-lg py-4 md:py-5">
+              <p className="text-slate-100 font-medium md:text-base text-justify max-w-md text-lg py-4 md:py-5">
                 Nous sommes un système qui permet à nos adhérents, contre
                 paiement d’une cotisation, de se faire rembourser des frais de
                 santé qui ne sont pas pris en charge par la Sécurité sociale
@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <>
+            <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-8 items-start md:mt-2">
               <div className="flex flex-col gap-2">
                 <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
                   Accueil
@@ -79,20 +79,20 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="flex flex-col gap-5">
-                <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
+                <div className=" md:text-base text-lg text-slate-100">
                   Centre d'appel
-                </Link>
-                <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
+                </div>
+                <div className=" md:text-base text-lg text-slate-100">
                   Adhésion
-                </Link>
-                <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
+                </div>
+                <div className=" md:text-base text-lg text-slate-100">
                   Signaler un problème
-                </Link>
-                <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
+                </div>
+                <div className=" md:text-base text-lg text-slate-100">
                   Chat support
-                </Link>
+                </div>
               </div>
-            </>
+            </div>
           </div>
         </div>
       </div>
