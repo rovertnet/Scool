@@ -4,7 +4,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 const Person = () => {
   return (
     <>
-      <div className=" my-10 md:my-14 px-10 md:px-12 lg:my-14 lg:px-12 block md:w-full">
+      <div className=" my-10 md:my-14 px-10 md:px-12 block md:w-full">
         <div className="text-center">
           <h2 className=" text-base text-green-700 font-medium md:text-xl">
             Des soins auxquels vous pouvez croire
@@ -15,7 +15,7 @@ const Person = () => {
         </div>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
           <div className="flex md:flex-col flex-row md:px-12 mx-10">
-            <div className="bg-slate-100 p-3 md:px-12">
+            <div className="bg-slate-100 px-12 md:px-12">
               <MdFavoriteBorder className=" text-slate-800 text-center" />
               Traditionnelle
             </div>
@@ -72,7 +72,7 @@ const Person = () => {
               </p>
             </div>
           </div>
-          <div className="grid md:grid-cols-1 grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-1 grid-cols-2 gap-2">
             <img
               src="../../public/image/1.png"
               alt=""

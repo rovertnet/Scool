@@ -33,7 +33,7 @@ const Question = () => {
     <>
       <div className="mx-10 md:mx-32 md:my-10 my-5">
         <div className="flex flex-col justify-center items-center md:py-10 py-10">
-          <h1 className=" text-lg md:text-2xl text-center font-extrabold uppercase">
+          <h1 className=" text-xl md:text-2xl text-center font-extrabold uppercase">
             Questions fréquemment posées
           </h1>
           <p className=" md:pt-3 pt-3 md:text-base text-sm md:max-w-md max-w-lg text-center">
@@ -44,7 +44,7 @@ const Question = () => {
         </div>
         <div className=" grid grid-cols-1 gap-10">
           <div className="border-[1px] border-slate-300 rounded-lg bg-slate-50 shadow-md">
-            <div className="text-lg md:text-xl font-bold text-black flex justify-between gap-10 md:px-10 px-10 md:py-5 py-5">
+            <div className="text-xs md:text-lg font-bold text-black flex justify-between gap-10 md:px-10 px-10 md:py-5 py-5">
               01. Quelles sont nos offres ?
               <button
                 className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
@@ -73,7 +73,7 @@ const Question = () => {
           </div>
 
           <div className="border-[1px] border-slate-300 rounded-lg bg-slate-50 shadow-md">
-            <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+            <div className="text-xs md:text-lg font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               02. Comment devenir partenaire de la MUSDEEL ?
               <button
                 className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
@@ -102,7 +102,7 @@ const Question = () => {
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 shadow-md">
-            <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+            <div className="text-base md:text-lg font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               03. Quelle est la politique de remboursement ?
               <button
                 className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
@@ -131,7 +131,7 @@ const Question = () => {
           </div>
 
           <div className="border-[1px] border-slate-200 rounded-lg bg-slate-50 shadow-md">
-            <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+            <div className="text-base md:text-lg font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               04. Qu est-ce qui se passera en cas de décès d un adhérent ?
               <button
                 className=" cursor-pointer hover:bg-slate-200 hover:p-2 hover:md:p-2 hover:rounded-full"
@@ -160,7 +160,7 @@ const Question = () => {
           </div>
 
           <div className="border-[1px] border-slate-400 rounded-lg bg-slate-50 ">
-            <div className="text-lg md:text-xl font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
+            <div className="text-base md:text-lg font-bold text-black flex justify-between md:px-10 px-10 md:py-5 py-5">
               05. Quelles sont les méthodes de paiement viables dans la MUSDEEL
               ?
               <button
