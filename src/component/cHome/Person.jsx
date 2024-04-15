@@ -72,16 +72,16 @@ const Person = () => {
               </p>
             </div>
           </div>
-          <div className="grid md:grid-cols-1 grid-cols-2 gap-2">
+          <div className="grid md:grid-cols-1 grid-cols-2 gap-5">
             <img
               src="../../public/image/1.png"
               alt=""
-              className=" md:h-[180px] md:w-[200px] w-full"
+              className=" md:h-[180px] md:w-[200px] w-full last:rounded-lg"
             />
             <img
               src="../../public/image/2.png"
               alt=""
-              className="md:h-[180px] md:w-[200px] w-full"
+              className="md:h-[180px] md:w-[200px] w-full last:rounded-lg"
             />
           </div>
         </div>
