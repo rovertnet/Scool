@@ -36,12 +36,14 @@ const Footer = () => {
               <Link to={"/contact"}>Contact</Link>
             </div>
             <div className="flex flex-col gap-5">
-              <Link to={"/"}>Accueil</Link>
-              <Link to={"/"}>Solution</Link>
-              <Link to={"/"}>A propos</Link>
-              <Link to={"/"}>FAQ</Link>
+              <Link to={"/"}>Centre d'appel</Link>
+              <Link to={"/"}>Adhésion</Link>
+              <Link to={"/"}>Signaler un problème</Link>
+              <Link to={"/"}>Chat support</Link>
             </div>
-            <div className="flex flex-col gap-5"></div>
+            <div className="flex flex-col gap-5">
+              
+            </div>
           </div>
         </div>
       </div>
