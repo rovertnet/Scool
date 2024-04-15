@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 
 const Footer = () => {
@@ -79,8 +80,9 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="flex flex-col gap-5">
-                <div className=" md:text-base text-lg text-slate-100">
-                  Centre d'appel
+                <div className=" md:text-base text-lg text-slate-100 flex space-x-2">
+
+                  contact@musdeel.com
                 </div>
                 <div className=" md:text-base text-lg text-slate-100">
                   Adhésion
