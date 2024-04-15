@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
 
             <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-12 items-start md:mt-2">
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-5">
                 <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
                   Accueil
                 </Link>
