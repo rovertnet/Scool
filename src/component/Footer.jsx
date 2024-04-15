@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div className="max-w-screexl">
-        <div className="bg-slate-900 md:px-10 px-10 md:py-8 py-8">
+        <div className="bg-slate-950 md:px-10 px-10 md:py-8 py-8">
           <h1 className="text-start font-bold text-xl md:text-2xl text-white leading-normal">
             LA MUSDEEL
           </h1>
@@ -92,12 +92,22 @@ const Footer = () => {
                 </div>
                 <div className=" flex gap-3 md:text-base text-lg text-slate-100">
                   <IoLocationOutline className=" font-bold text-2xl md:text-2xl text-slate-50" />
-                  593, Dalhias , 10ème rue Résidentiel <br /> | Limete Signaler un
-                  problème
+                  593, Dalhias , 10ème rue Résidentiel <br /> | Limete Signaler
+                  un problème
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex justify-between items-center bg-slate-900 px-10 md:px-10 md:py-5 py-5">
+          <p className=" text-xs md:text-sm text-slate-200 font-normal">
+            © MUSDEEL {new Date().getFullYear()}. tous droits réservés
+          </p>
+
+          <p className=" text-xs md:text-sm text-slate-200 font-normal">
+            Bestech Consult
+          </p>
         </div>
       </div>
     </>
