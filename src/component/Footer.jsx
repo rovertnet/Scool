@@ -24,15 +24,15 @@ const Footer = () => {
                 santé qui ne sont pas pris en charge par la Sécurité sociale
               </p>
               <div className="flex space-x-3 md:space-x-3">
-                <FaSquareXTwitter className="font-bold text-2xl md:text-3xl text-white" />
-                <BsFacebook className="font-bold text-2xl md:text-3xl text-blue-700" />
-                <FaSquareInstagram className="font-bold text-2xl md:text-3xl text-red-800" />
-                <FaLinkedin className="font-bold text-2xl md:text-3xl text-blue-600" />
+                <FaSquareXTwitter className="font-bold text-6xl md:text-3xl text-white" />
+                <BsFacebook className="font-bold text-6xl md:text-3xl text-blue-700" />
+                <FaSquareInstagram className="font-bold text-6xl md:text-3xl text-red-800" />
+                <FaLinkedin className="font-bold text-6xl md:text-3xl text-blue-600" />
               </div>
             </div>
 
             <div className="md:w-1/2 flex flex-col md:flex-row flex-wrap justify-between gap-12 items-start md:mt-2">
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-6">
                 <Link className=" md:text-base text-lg text-slate-100" to={"/"}>
                   Accueil
                 </Link>
