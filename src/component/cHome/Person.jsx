@@ -16,11 +16,9 @@ const Person = () => {
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
           <div className="flex md:flex-col flex-row md:px-12 mx-10">
             <div className="bg-slate-100 px-12 md:px-12">
-              <MdFavoriteBorder className=" text-slate-800 text-center" />
-              Traditionnelle
+              <span>Traditionnelle</span>
             </div>
             <div className="bg-green-600 text-center p-3 md:px-12 text-slate-100">
-              <MdFavoriteBorder className=" text-slate-100 text-center" />
               <div>Sérieuse</div>
             </div>
             <div className="bg-slate-100 p-5 md:px-12">Texte</div>
