@@ -1,5 +1,4 @@
 import { VscWorkspaceTrusted } from "react-icons/vsc";
-import { MdFavoriteBorder } from "react-icons/md";
 
 const Person = () => {
   return (
@@ -14,7 +13,7 @@ const Person = () => {
           </h3>
         </div>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
-          <div className="flex md:flex-col flex-row md:px-12 mx-10">
+          <div className="flex md:flex-col flex-row md:px-12 px-10 mx-10 md:mx-0">
             <div className="bg-slate-100 px-12 md:px-12">
               <span>Traditionnelle</span>
             </div>
