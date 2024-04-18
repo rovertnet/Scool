@@ -19,6 +19,14 @@ const Banner = () => {
             </div>
           </div>
         </div>
+
+        <div className="md:-inset-10 md:-my-10 -my-10">
+          <div className="flex justify-center items-center gap-10 ">
+            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
+            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
+            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
+          </div>
+        </div>
       </div>
     </>
   );
