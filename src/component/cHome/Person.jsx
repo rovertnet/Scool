@@ -14,15 +14,15 @@ const Person = () => {
         </div>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
           <div className="flex md:flex-col flex-row md:px-12 px-10 mx-10 md:mx-0">
-            <div className="bg-slate-100 px-12 md:px-12">
-              <span>Traditionnelle</span>
+            <div className="bg-slate-100 px-12 md:px-5 text-center md:py-9 py-9">
+              <div>Traditionnelle</div>
             </div>
-            <div className="bg-green-600 text-center p-3 md:px-12 text-slate-100">
+            <div className="bg-green-600 text-center md:py-9 py-9 px-4 md:px-5 text-slate-100">
               <div>Sérieuse</div>
             </div>
-            <div className="bg-slate-100 p-5 md:px-12">Texte</div>
-            <div className="bg-slate-100 p-5 md:px-12">Texte</div>
-            <div className="bg-green-600 md:px-10">Texte</div>
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">Texte</div>
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">Texte</div>
+            <div className="bg-green-600 text-center px-4 md:px-5">Texte</div>
           </div>
           <div className=" md:py-10 py-7">
             <h2 className="text-lg md:text-xl font-bold text-slate-800 md:py-8 py-7">
