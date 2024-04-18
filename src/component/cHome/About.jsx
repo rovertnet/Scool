@@ -4,7 +4,7 @@ import { MdOutlineSettingsInputComposite } from "react-icons/md";
 const About = () => {
   return (
     <>
-      <div className=" mt-20 md:mt-20 md:mb-14 mb-12 px-10 md:px-12 lg:my-14 lg:px-12 block">
+      <div className=" mt-20 md:mt-20 md:mb-14 mb-12 px-10 md:px-12 lg:my-20 lg:px-20 block">
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-10">
           <>
             <img
@@ -61,7 +61,7 @@ const About = () => {
               pour satisfaire nos sociétaires et nos partenaires. En résumé : la
               qualité de service
             </p>
-            <div className=" mt-5 md:mt-28">
+            <div className=" mt-5 md:mt-9">
               <button className=" text-white md:rounded-lg rounded-md text-xl px-20 md:px-16 py-3 md:py-2 font-semibold bg-green-700">
                 En savoir plus
               </button>
