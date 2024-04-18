@@ -13,16 +13,29 @@ const Person = () => {
           </h3>
         </div>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
-          <div className="flex md:flex-col flex-row md:px-12 px-10 mx-10 md:mx-0">
+          <div className="flex md:flex-col flex-row md:px-12 px-10 mx-10 md:mx-0 border-[1px] border-transparent">
             <div className="bg-slate-100 px-12 md:px-3 text-center items-center flex flex-col justify-center gap-3 md:py-9 py-9">
-              <img src="../../public/p1.png" alt="" className=" w-10 h-10 items-center" />
-              <div>Traditionnelle</div> 
+              <img
+                src="../../public/p1.png"
+                alt=""
+                className=" w-10 h-10 items-center"
+              />
+              <div>Traditionnelle</div>
             </div>
-            <div className="bg-green-600 text-center md:py-9 py-9 px-4 md:px-5 text-slate-100">
+            <div className="bg-green-600 text-center md:py-9 py-9 px-4 md:px-5 text-slate-100 items-center flex flex-col justify-center gap-3">
+              <img
+                src="../../public/p1.png"
+                alt=""
+                className=" w-10 h-10 items-center"
+              />
               <div>Sérieuse</div>
             </div>
-            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">Texte</div>
-            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">Texte</div>
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">
+              Texte
+            </div>
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">
+              Texte
+            </div>
             <div className="bg-green-600 text-center px-4 md:px-5">Texte</div>
           </div>
           <div className=" md:py-10 py-7">
