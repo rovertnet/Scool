@@ -28,8 +28,14 @@ const Banner = () => {
               <span>Sophistiquée</span>
               <FaCalendarAlt className="text-4xl md:text-5xl " />
             </div>
-            <div className="bg-green-700 md:px-20 px-10 md:py-10 py-10 rounded-lg"></div>
-            <div className="bg-black md:px-20 px-10 md:py-10 py-10 rounded-lg"></div>
+            <div className="bg-green-700 md:px-20 px-10 md:py-10 py-10 rounded-lg flex flex-col md:flex-row gap-8">
+              <span>Sophistiquée</span>
+              <FaCalendarAlt className="text-4xl md:text-5xl " />
+            </div>
+            <div className="bg-black md:px-20 px-10 md:py-10 py-10 rounded-lg flex flex-col md:flex-row gap-8">
+              <span>Sophistiquée</span>
+              <FaCalendarAlt className="text-4xl md:text-5xl " />
+            </div>
           </div>
         </div>
       </div>
