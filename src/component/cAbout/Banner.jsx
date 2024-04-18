@@ -23,16 +23,16 @@ const Banner = () => {
         </div>
 
         <div className="md:-inset-10 md:-my-14 -my-10">
-          <div className="flex justify-center items-center gap-10 ">
+          <div className="flex justify-center items-center gap-16 ">
             <div className="bg-slate-200 md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
               <span>Sophistiquée</span>
               <FaCalendarAlt className="text-4xl md:text-5xl " />
             </div>
-            <div className="bg-green-700 md:px-20 px-10 md:py-10 py-10 rounded-lg flex flex-col md:flex-row gap-8">
-              <span>Sophistiquée</span>
-              <FaCalendarAlt className="text-4xl md:text-5xl " />
+            <div className="bg-green-700 md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
+              <span className=" text-white text-xl font-bold">Sophistiquée</span>
+              <FaCalendarAlt className="text-4xl md:text-5xl text-white" />
             </div>
-            <div className="bg-black md:px-20 px-10 md:py-10 py-10 rounded-lg flex flex-col md:flex-row gap-8">
+            <div className="bg-black md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
               <span>Sophistiquée</span>
               <FaCalendarAlt className="text-4xl md:text-5xl " />
             </div>
