@@ -1,3 +1,5 @@
+import { FaCalendarAlt } from "react-icons/fa";
+
 const Banner = () => {
   return (
     <>
@@ -20,11 +22,14 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="md:-inset-10 md:-my-10 -my-10">
+        <div className="md:-inset-10 md:-my-14 -my-10">
           <div className="flex justify-center items-center gap-10 ">
-            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
-            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
-            <div className="bg-black md:px-20 px-10 md:py-10 py-10"></div>
+            <div className="bg-slate-200 md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
+              <span>Sophistiquée</span>
+              <FaCalendarAlt className="text-4xl md:text-5xl " />
+            </div>
+            <div className="bg-green-700 md:px-20 px-10 md:py-10 py-10 rounded-lg"></div>
+            <div className="bg-black md:px-20 px-10 md:py-10 py-10 rounded-lg"></div>
           </div>
         </div>
       </div>
