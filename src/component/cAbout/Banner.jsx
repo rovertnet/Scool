@@ -27,18 +27,26 @@ const Banner = () => {
         </div>
 
         <div className="md:-inset-10 md:-my-14 -my-10">
-          <div className="flex justify-center items-center gap- md:gap-16 mr-10 ml-10">
-            <div className="bg-slate-200 md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
-              <span className="text-lg m flex-col-reverse font-bold">Sophistiquée</span>
-              <FaCalendarAlt className="text-2xl md:text-5xl " />
-            </div>
-            <div className="bg-green-700 md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
-              <span className=" text-white text-lg m flex-col-reverse font-bold">Sérieuse</span>
-              <FaUsers className="text-2xl md:text-5xl text-white" />
-            </div>
-            <div className="bg-black md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
-              <span className=" text-white text-lg m flex-col-reverse font-bold">Rassurante</span>
-              <BiWalletAlt className="text-2xl md:text-5xl text-white" />
+          <div>
+            <div className="flex justify-center items-center gap- md:gap-16 mr-10 ml-10">
+              <div className="bg-slate-200 md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
+                <span className="text-lg m flex-col-reverse font-bold">
+                  Sophistiquée
+                </span>
+                <FaCalendarAlt className="text-2xl md:text-5xl " />
+              </div>
+              <div className="bg-green-700 md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
+                <span className=" text-white text-lg m flex-col-reverse font-bold">
+                  Sérieuse
+                </span>
+                <FaUsers className="text-2xl md:text-5xl text-white" />
+              </div>
+              <div className="bg-black md:px-14 px-7 md:py-7 shadow-md py-5 md:rounded-lg flex flex-col-reverse md:flex-row gap-4 md:gap-8">
+                <span className=" text-white text-lg m flex-col-reverse font-bold">
+                  Rassurante
+                </span>
+                <BiWalletAlt className="text-2xl md:text-5xl text-white" />
+              </div>
             </div>
           </div>
         </div>
