@@ -29,16 +29,12 @@ const Banner = () => {
               <FaCalendarAlt className="text-4xl md:text-5xl " />
             </div>
             <div className="bg-green-700 md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
-              <span className=" text-white text-xl font-bold">
-                Sophistiquée
-              </span>
+              <span className=" text-white text-xl font-bold">Sérieuse</span>
               <FaCalendarAlt className="text-4xl md:text-5xl text-white" />
             </div>
             <div className="bg-black md:px-14 px-7 md:py-7 py-5 rounded-lg flex flex-col md:flex-row gap-8">
-              <span className=" text-white text-xl font-bold">
-                Sophistiquée
-              </span>
-              <FaCalendarAlt className="text-4xl md:text-5xl " />
+              <span className=" text-white text-xl font-bold">Rassurante</span>
+              <FaCalendarAlt className="text-4xl md:text-5xl text-white" />
             </div>
           </div>
         </div>
