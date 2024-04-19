@@ -30,11 +30,21 @@ const Person = () => {
               />
               <div>Sérieuse</div>
             </div>
-            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">
-              Texte
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5 items-center flex flex-col justify-center gap-3">
+              <img
+                src="../../public/p1.png"
+                alt=""
+                className=" w-10 h-10 items-center"
+              />
+              <div>Texte</div>
             </div>
-            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5">
-              Texte
+            <div className="bg-slate-100 text-center md:py-9 py-9 px-4 md:px-5 items-center flex flex-col justify-center gap-3">
+              <img
+                src="../../public/p1.png"
+                alt=""
+                className=" w-10 h-10 items-center"
+              />
+              <div>Texte</div>
             </div>
             <div className="bg-green-600 text-center px-4 md:px-5">Texte</div>
           </div>
