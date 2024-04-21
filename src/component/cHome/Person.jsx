@@ -12,7 +12,7 @@ const Person = () => {
             Notre personnalité
           </h3>
         </div>
-        <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
+        <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10">
           <div className="flex md:flex-col flex-row md:px-8 px-7 border-[1px] border-transparent">
             <div className="bg-slate-100 px-12 md:px-3 text-center items-center flex flex-col justify-center gap-3 md:py-9 py-9">
               <img
