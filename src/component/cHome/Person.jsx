@@ -4,7 +4,7 @@ const Person = () => {
   return (
     <>
       <div className=" my-10 md:my-14 px-10 md:px-12 block md:w-full">
-        <div className="text-center">
+        <div className="text-center md:pb-10 pb-10">
           <h2 className=" text-base text-green-700 font-medium md:text-xl">
             Des soins auxquels vous pouvez croire
           </h2>
@@ -13,7 +13,7 @@ const Person = () => {
           </h3>
         </div>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-5 mt-10 ">
-          <div className="flex md:flex-col flex-row md:px-12 px-10 mx-10 md:mx-0 max-w-md border-[1px] border-transparent">
+          <div className="flex md:flex-col flex-row md:px-8 px-7 border-[1px] border-transparent">
             <div className="bg-slate-100 px-12 md:px-3 text-center items-center flex flex-col justify-center gap-3 md:py-9 py-9">
               <img
                 src="../../public/p1.png"
@@ -97,12 +97,12 @@ const Person = () => {
             <img
               src="../../public/image/1.png"
               alt=""
-              className=" md:h-[180px] md:w-[200px] w-full last:rounded-lg"
+              className=" md:h-[180px] md:w-[200px] w-full rounded-lg"
             />
             <img
               src="../../public/image/2.png"
               alt=""
-              className="md:h-[180px] md:w-[200px] w-full last:rounded-lg"
+              className="md:h-[180px] md:w-[200px] w-full rounded-lg"
             />
           </div>
         </div>
