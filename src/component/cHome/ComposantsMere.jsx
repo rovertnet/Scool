@@ -6,6 +6,7 @@ import Person from "./Person";
 import Question from "./Question";
 import Partenaire from "./Partenaire";
 import NewsLetter from "./NewsLetter";
+import Element from "./Element";
 
 const ComposantsMere = () => {
   return (
@@ -13,6 +14,7 @@ const ComposantsMere = () => {
       <Banner />
       <About />
       <Person />
+      <Element />
       <Question />
       <Contact />
       <Partenaire />
