@@ -15,10 +15,14 @@ const Element = () => {
         <div className="grid grid-cols-1 md:grid-rows-2 gap-10">
 
           <div className="flex justify-start items-start flex-col gap-10">
-            <div className="flex flex-col justify-start items-start"></div>
+            <div className="flex flex-col justify-start items-start md:py-5 py-6">
+              
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 gap-10"></div>
+          <div className="grid md:grid-cols-2 grid-cols-2 gap-10">
+
+          </div>
         </div>
       </div>
     </>
