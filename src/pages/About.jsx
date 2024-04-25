@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Menu from "../component/cHeader/Menu";
+import Tout from "../component/cAbout/Tout";
 
 
 const About = () => {
@@ -7,6 +8,8 @@ const About = () => {
     <>
       <Outlet />
       <Menu />
+      <Tout />
+      <Footer />
     </>
   );
 }
