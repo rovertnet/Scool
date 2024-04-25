@@ -18,13 +18,13 @@ const Element = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-rows-2 gap-10">
-          <div className="flex justify-start items-start flex-col gap-10">
+          <div className="flex justify-start items-start flex-col gap-5">
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE MISSION
               </h2>
-              <p className="text-lg md:text-base text-slate-900 max-w-md">
+              <p className="text-lg md:text-lg text-slate-900  text-justify">
                 Nous estimons être un acteur de confiance pour la couverture
                 complémentaire santé du plus grand nombre durant la période de
                 scolarité
@@ -32,11 +32,11 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE PUBLIC
               </h2>
-              <p className="text-lg md:text-base text-slate-900 max-w-md">
+              <p className="text-lg md:text-lg text-slate-900  text-justify">
                 Nos cibles sont des élèves et les étudiants. concrètement, nous
                 prendrons en charge toutes les personnes scolarisées de 4ème
                 année primaire au 6ème des humanités d’une part, et d’autre
@@ -46,11 +46,11 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE DELIMITATION
               </h2>
-              <p className="text-lg md:text-base text-slate-900 max-w-md">
+              <p className="text-lg md:text-lg text-slate-900 text-justify">
                 Nous accompagnons nos adhérents dès la 4ème années de scolarité
                 jusqu’à la fin du cycle universitaire et/ou les apprentis
                 inscrits régulièrement dans une formation professionnelle.
@@ -58,7 +58,11 @@ const Element = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 gap-10"></div>
+          <div className="grid md:grid-cols-2 grid-cols-2 gap-10">
+            <div className="">
+              <img src="../..public/" alt="" className="" />
+            </div>
+          </div>
         </div>
       </div>
     </>
