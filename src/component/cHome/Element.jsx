@@ -1,4 +1,5 @@
 import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 const Element = () => {
   return (
@@ -19,7 +20,7 @@ const Element = () => {
         <div className="grid grid-cols-1 md:grid-rows-2 gap-10">
           <div className="flex justify-start items-start flex-col gap-10">
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <VscWorkspaceTrusted className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE MISSION
               </h2>
@@ -31,7 +32,7 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <VscWorkspaceTrusted className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE PUBLIC
               </h2>
@@ -45,7 +46,7 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <VscWorkspaceTrusted className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
+              <LiaPhoneVolumeSolid className=" text-xl md:text-2xl text-green-500 md:py-4 py-4" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE DELIMITATION
               </h2>
