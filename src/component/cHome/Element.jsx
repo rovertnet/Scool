@@ -58,21 +58,37 @@ const Element = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 gap-5 w-2/3">
+          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 w-/3">
             <div className="">
-              <img src="../../public/image/1.png" alt="" className=" h-72" />
+              <img
+                src="../../public/image/1.png"
+                alt=""
+                className=" h-88 w-72 rounded-lg"
+              />
             </div>
 
             <div className="">
-              <img src=".././.public/image/.png" alt="" className=" h-72" />
+              <img
+                src="../../public/image/2.png"
+                alt=""
+                className=" h-72 rounded-lg"
+              />
             </div>
 
             <div className="">
-              <img src="../../public/image/3.png" alt="" className=" h-72" />
+              <img
+                src="../../public/image/3.png"
+                alt=""
+                className=" h-52 w-72 rounded-lg"
+              />
             </div>
 
             <div className="">
-              <img src="../../public/image/4.png" alt="" className=" h-72" />
+              <img
+                src="../../public/image/4.png"
+                alt=""
+                className=" h-72 rounded-lg"
+              />
             </div>
           </div>
         </div>
