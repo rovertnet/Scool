@@ -60,7 +60,19 @@ const Element = () => {
 
           <div className="grid md:grid-cols-2 grid-cols-2 gap-10">
             <div className="">
-              <img src="../..public/" alt="" className="" />
+              <img src="../../public/11.jpg" alt="" className="" />
+            </div>
+
+            <div className="">
+              <img src=".././.public/11.jpg" alt="" className="" />
+            </div>
+
+            <div className="">
+              <img src="../../public/11.jpg" alt="" className="" />
+            </div>
+
+            <div className="">
+              <img src="../../public/11.jpg" alt="" className="" />
             </div>
           </div>
         </div>
