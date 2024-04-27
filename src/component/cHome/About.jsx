@@ -9,7 +9,7 @@ const About = () => {
           <>
             <img
               src="../../public/image/img1.png"
-              className="w-full md:w-96 md:h-96 h-full rounded-lg"
+              className="w-full md:w-2/3 md:h-2/3 h-full rounded-lg"
               alt="about image"
             />
           </>
