@@ -1,8 +1,8 @@
 
-import { LiaPhoneVolumeSolid } from "react-icons/lia";
+
 import { BiSolidCheckCircle } from "react-icons/bi";
 import { BiSolidEnvelopeOpen } from "react-icons/bi";
-
+import { BsFillPhoneFill } from "react-icons/bs";
 
 
 const Element = () => {
@@ -24,7 +24,7 @@ const Element = () => {
         <div className="flex md:flex-row flex-col justify-between items-center gap-10">
           <div className="flex justify-start items-start flex-col gap-5 md:w-3/6">
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <BiSolidCheckCircle className=" text-3xl md:text-3xl text-green-500" />
+              <BiSolidCheckCircle className=" text-3xl md:text-5xl text-green-700" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE MISSION
               </h2>
@@ -36,7 +36,7 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-3xl md:text-3xl text-green-500" />
+              <BsFillPhoneFill className=" text-3xl md:text-5xl text-green-700" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE PUBLIC
               </h2>
@@ -50,7 +50,7 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <BiSolidEnvelopeOpen className=" text-3xl md:text-3xl text-green-500" />
+              <BiSolidEnvelopeOpen className=" text-3xl md:text-5xl text-green-700" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE DELIMITATION
               </h2>
@@ -62,12 +62,12 @@ const Element = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5 md:w-1/3">
+          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5 md:w-1/3 md:mt-16">
             <div className="">
               <img
                 src="../../public/image/1.png"
                 alt=""
-                className=" md:h-88 md:w-72 h-full rounded-lg"
+                className=" md:h-60 md:w-72 h-full rounded-lg"
               />
             </div>
 
@@ -75,7 +75,7 @@ const Element = () => {
               <img
                 src="../../public/image/2.png"
                 alt=""
-                className=" md:h-72 h-full rounded-lg"
+                className=" md:h-60 h-full rounded-lg"
               />
             </div>
 
@@ -83,7 +83,7 @@ const Element = () => {
               <img
                 src="../../public/image/3.png"
                 alt=""
-                className=" md:h-72  md:w-72 h-full rounded-lg"
+                className=" md:h-60  md:w-72 h-full rounded-lg"
               />
             </div>
 
@@ -91,7 +91,7 @@ const Element = () => {
               <img
                 src="../../public/image/4.png"
                 alt=""
-                className=" md:h-72 h-full rounded-lg"
+                className=" md:h-60 h-full rounded-lg"
               />
             </div>
           </div>
