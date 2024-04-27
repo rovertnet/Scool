@@ -4,7 +4,7 @@ import { LiaPhoneVolumeSolid } from "react-icons/lia";
 const Element = () => {
   return (
     <>
-      <div className="my-10 md:my-14 px-10 md:px-12 mx-10 md:mx-10 md:py-10 py-8 block md:w-full">
+      <div className="my-10 md:my-14 px-10 md:px-10 mx-10 md:mx-10 md:py-10 py-8 block md:w-full">
         <div className="text-center md:pb-10 pb-10">
           <span className=" bg-slate-200 px-2 md:px-2 py-1 md:py-1 rounded-3xl text-green-700 font-bold">
             LA MUSDEEL
