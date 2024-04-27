@@ -19,7 +19,6 @@ const ComposantsMere = () => {
         <Partenaire />
         <NewsLetter />
       </div>
-
       <MdOutlet />
     </>
   );
