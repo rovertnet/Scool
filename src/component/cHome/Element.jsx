@@ -1,6 +1,8 @@
 
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { BiSolidCheckCircle } from "react-icons/bi";
+import { BiSolidEnvelopeOpen } from "react-icons/bi";
+
 
 
 const Element = () => {
@@ -48,7 +50,7 @@ const Element = () => {
             </div>
 
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-3xl md:text-3xl text-green-500" />
+              <BiSolidEnvelopeOpen className=" text-3xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE DELIMITATION
               </h2>
