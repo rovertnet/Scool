@@ -1,11 +1,13 @@
 
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { BiSolidCheckCircle } from "react-icons/bi";
+
 
 const Element = () => {
   return (
     <>
       <div className="my-10 md:my-14 px-10 md:px-12 block md:w-full">
-        <div className="text-center md:pb-10 pb-10">
+        <div className="text-center md:pb-10 pb-10 md:py-10 py-10">
           <span className=" bg-slate-200 px-2 md:px-2 py-1 md:py-1 rounded-3xl text-green-700 font-bold">
             LA MUSDEEL
           </span>
@@ -17,10 +19,10 @@ const Element = () => {
           </p>
         </div>
 
-        <div className="flex md:flex-row flex-col gap-10">
+        <div className="flex md:flex-row flex-col justify-between items-center gap-10">
           <div className="flex justify-start items-start flex-col gap-5 md:w-3/6">
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
-              <LiaPhoneVolumeSolid className=" text-3xl md:text-3xl text-green-500" />
+              <BiSolidCheckCircle className=" text-3xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
                 NOTRE MISSION
               </h2>
@@ -58,7 +60,7 @@ const Element = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5">
+          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5 md:w-1/3">
             <div className="">
               <img
                 src="../../public/image/1.png"
