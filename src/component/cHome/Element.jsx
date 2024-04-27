@@ -18,7 +18,7 @@ const Element = () => {
         </div>
 
         <div className="flex md:flex-row flex-col gap-10">
-          <div className="flex justify-start items-start flex-col gap-5 w-3/6">
+          <div className="flex justify-start items-start flex-col gap-5">
             <div className="flex flex-col justify-start items-start md:py-4 py-5">
               <LiaPhoneVolumeSolid className=" text-xl md:text-3xl text-green-500" />
               <h2 className=" text-xl md:text-xl font-bold text-green-700 uppercase md:py-4 py-4">
