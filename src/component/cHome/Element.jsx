@@ -58,12 +58,12 @@ const Element = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-10">
+          <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5">
             <div className="">
               <img
                 src="../../public/image/1.png"
                 alt=""
-                className=" md:h-88 md:w-72 rounded-lg"
+                className=" md:h-88 md:w-72 h-full rounded-lg"
               />
             </div>
 
@@ -71,7 +71,7 @@ const Element = () => {
               <img
                 src="../../public/image/2.png"
                 alt=""
-                className=" md:h-72  rounded-lg"
+                className=" md:h-72 h-full rounded-lg"
               />
             </div>
 
@@ -79,7 +79,7 @@ const Element = () => {
               <img
                 src="../../public/image/3.png"
                 alt=""
-                className=" md:h-72  md:w-72  rounded-lg"
+                className=" md:h-72  md:w-72 h-full rounded-lg"
               />
             </div>
 
