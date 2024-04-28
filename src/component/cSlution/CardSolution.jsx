@@ -7,7 +7,7 @@ const CardSolution = () => {
         <div className=" md:mx-8 mx-6 grid grid-cols-2 md:grid-cols-3 gap-5">
           <div className=" bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
             <img
-              src="../../public/11.jpg"
+              src="../../public/1.png"
               alt=""
               className=" w-full h-36 md:h-48 object-cover"
             />
@@ -29,7 +29,7 @@ const CardSolution = () => {
 
           <div className=" bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
             <img
-              src="../../public/11.jpg"
+              src="../../public/2.png"
               alt=""
               className=" w-full h-36 md:h-48 object-cover"
             />
@@ -51,7 +51,7 @@ const CardSolution = () => {
 
           <div className=" bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
             <img
-              src="../../public/11.jpg"
+              src="../../public/3.png"
               alt=""
               className=" w-full h-36 md:h-48 object-cover"
             />
