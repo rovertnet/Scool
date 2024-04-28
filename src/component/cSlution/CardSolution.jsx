@@ -20,8 +20,9 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p className="flex space-x-5">
-                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+              <p className="flex space-x-5 text-green-700">
+                Learn more{" "}
+                <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
               </p>
             </div>
           </div>
@@ -41,8 +42,9 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p className="flex space-x-5">
-                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+              <p className="flex space-x-5 text-green-700">
+                Learn more{" "}
+                <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
               </p>
             </div>
           </div>
@@ -62,8 +64,9 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p className="flex space-x-5">
-                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />
+              <p className="flex space-x-5 text-green-700">
+                Learn more{" "}
+                <FaArrowRight className=" text-lg md:text-lg text-green-700" />
               </p>
             </div>
           </div>
