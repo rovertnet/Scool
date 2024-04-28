@@ -1,4 +1,4 @@
-
+import { FaArrowRight } from "react-icons/fa6";
 
 const CardSolution = () => {
   return (
@@ -20,7 +20,9 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p>Learn more </p>
+              <p className="flex space-x-5">
+                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+              </p>
             </div>
           </div>
 
@@ -39,10 +41,12 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p>Learn more </p>
+              <p className="flex space-x-5">
+                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+              </p>
             </div>
           </div>
-          
+
           <div className=" bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
             <img
               src="../../public/11.jpg"
@@ -58,13 +62,15 @@ const CardSolution = () => {
                 placerat Convallis felis vitae tortor augue. Velit nascetur
                 massa in.
               </p>
-              <p>Learn more </p>
+              <p className="flex space-x-5">
+                Learn more <FaArrowRight className=" text-lg md:text-lg text-green-700" />
+              </p>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default CardSolution
+export default CardSolution;
