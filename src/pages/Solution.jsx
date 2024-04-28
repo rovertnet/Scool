@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Menu from "../component/cHeader/Menu";
+import SuperComp from "../component/cSlution/SuperComp";
 
 
 const Solution = () => {
@@ -7,6 +8,7 @@ const Solution = () => {
     <>
       <Outlet />
       <Menu />
+      <SuperComp />
     </>
   );
 }
