@@ -3,7 +3,7 @@
 const CardSolution = () => {
   return (
     <>
-      
+      <div className=""></div>
     </>
   )
 }
