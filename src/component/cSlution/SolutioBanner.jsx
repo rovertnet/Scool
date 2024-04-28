@@ -18,7 +18,11 @@ const SolutionBanner = () => {
           </div>
         </div>
 
-        <div className="md:-inset-10 md:-my-10 -my-10 border-[1px] block"></div>
+        <div className="flex ">
+          <div className="md:-inset-10 md:-my-10 -my-10 border-[1px] block md:py-2 py-2 bg-green-700"></div>
+          <div className="md:-inset-10 md:-my-10 -my-10 border-[1px] block md:py-2 py-2 bg-black"></div>
+          <div className="md:-inset-10 md:-my-10 -my-10 border-[1px] block md:py-2 py-2 bg-green-700"></div>
+        </div>
       </div>
     </>
   );
