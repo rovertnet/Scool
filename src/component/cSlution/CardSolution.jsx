@@ -9,7 +9,7 @@ const CardSolution = () => {
             <img
               src="../../public/1.png"
               alt=""
-              className=" w-full h-36 md:h-48 object-cover"
+              className=" w-full h-36 md:h-72 object-cover"
             />
             <div className=" text- p-5 w-full">
               <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
@@ -31,7 +31,7 @@ const CardSolution = () => {
             <img
               src="../../public/2.png"
               alt=""
-              className=" w-full h-36 md:h-48 object-cover"
+              className=" w-full h-36 md:h-52 object-cover"
             />
             <div className=" text- p-5 w-full">
               <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
@@ -53,7 +53,7 @@ const CardSolution = () => {
             <img
               src="../../public/3.png"
               alt=""
-              className=" w-full h-36 md:h-48 object-cover"
+              className=" w-full h-36 md:h-52 object-cover"
             />
             <div className=" text- p-5 w-full">
               <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
