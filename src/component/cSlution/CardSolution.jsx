@@ -21,7 +21,7 @@ const CardSolution = () => {
               </p>
               <p className="flex space-x-5 md:space-x-5 md:mt-3 mt-3">
                 <span className="text-lg text-green-700">Learn more </span>
-                <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />{" "}
               </p>
             </div>
           </div>
@@ -40,9 +40,11 @@ const CardSolution = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing Quisque
                 placerat...
               </p>
-              <p className="flex space-x-5 md:space-x-5 text-green-700 md:mt-3 mt-3">
-                <span className=" text-lg md:text-lg"></span>
-                <FaArrowRight className=" text-lg md:text-lg text-green-700" />{" "}
+              <p className="flex space-x-5 md:space-x-5  md:mt-3 mt-3">
+                <span className=" text-lg md:text-lg text-green-700">
+                  Learn more
+                </span>
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />{" "}
               </p>
             </div>
           </div>
@@ -66,7 +68,79 @@ const CardSolution = () => {
                   {" "}
                   learn more
                 </span>
-                <FaArrowRight className=" text-lg md:text-lg text-green-700" />
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />
+              </p>
+            </div>
+          </div>
+
+          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+            <img
+              src="../../public/3.png"
+              alt=""
+              className=" w-full h-80 md:h-96 object-cover"
+            />
+            <div className=" text- p-5 w-full">
+              <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
+                Prestation 1
+              </h3>
+              <p className=" flex flex-wrap gap-2 flex-row items-center justify-start text-lg md:text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing Quisque
+                placerat...
+              </p>
+              <p className="flex space-x-5 md:mt-3 md:space-x-5 mt-3">
+                <span className="text-lg md:text-lg text-green-700">
+                  {" "}
+                  learn more
+                </span>
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />
+              </p>
+            </div>
+          </div>
+
+          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+            <img
+              src="../../public/3.png"
+              alt=""
+              className=" w-full h-80 md:h-96 object-cover"
+            />
+            <div className=" text- p-5 w-full">
+              <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
+                Prestation 1
+              </h3>
+              <p className=" flex flex-wrap gap-2 flex-row items-center justify-start text-lg md:text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing Quisque
+                placerat...
+              </p>
+              <p className="flex space-x-5 md:mt-3 md:space-x-5 mt-3">
+                <span className="text-lg md:text-lg text-green-700">
+                  {" "}
+                  learn more
+                </span>
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />
+              </p>
+            </div>
+          </div>
+
+          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+            <img
+              src="../../public/3.png"
+              alt=""
+              className=" w-full h-80 md:h-96 object-cover"
+            />
+            <div className=" text- p-5 w-full">
+              <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
+                Prestation 1
+              </h3>
+              <p className=" flex flex-wrap gap-2 flex-row items-center justify-start text-lg md:text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing Quisque
+                placerat...
+              </p>
+              <p className="flex space-x-5 md:mt-3 md:space-x-5 mt-3">
+                <span className="text-lg md:text-lg text-green-700">
+                  {" "}
+                  learn more
+                </span>
+                <FaArrowRight className=" text-2xl md:text-2xl text-green-700" />
               </p>
             </div>
           </div>
