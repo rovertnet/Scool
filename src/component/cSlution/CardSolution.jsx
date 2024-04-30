@@ -6,7 +6,7 @@ const CardSolution = () => {
     <>
       <div className="mt-10 md:mt-10 md:mb-10 mb-5 px-10 md:px-12 md:py-10 py-10 block">
         <div className=" grid grid-cols80 md:grid-cols-3 gap-10">
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/1.png"
               alt=""
@@ -32,7 +32,7 @@ const CardSolution = () => {
             </div>
           </div>
 
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/2.png"
               alt=""
@@ -60,7 +60,7 @@ const CardSolution = () => {
             </div>
           </div>
 
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/3.png"
               alt=""
@@ -89,7 +89,7 @@ const CardSolution = () => {
             </div>
           </div>
 
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/3.png"
               alt=""
@@ -118,7 +118,7 @@ const CardSolution = () => {
             </div>
           </div>
 
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/3.png"
               alt=""
@@ -147,7 +147,7 @@ const CardSolution = () => {
             </div>
           </div>
 
-          <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
+          <div className=" bg-white shadow-md border-[1px] border-slate-100 rounded-lg overflow-hidden">
             <img
               src="../../public/3.png"
               alt=""
