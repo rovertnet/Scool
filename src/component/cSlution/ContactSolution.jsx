@@ -40,7 +40,7 @@ const ContactSolution = () => {
           <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-red-600 p-5 md:p-7">
             <BiSolidEnvelopeOpen className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
-              APPEL d’URGENCE
+              
             </h2>
             <p className=" font-semibold text-slate-50 text-lg md:text-lg">
               ildineeesoe@gmil.com <br /> myebstudios@gmail.com
