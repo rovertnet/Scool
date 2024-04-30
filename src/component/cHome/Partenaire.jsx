@@ -3,7 +3,7 @@
 const Partenaire = () => {
   return (
     <>
-      <div className="md:mx-10 mx-10 md:mt-10 mt-10 md:mb-10 mb-10">
+      <div className="md:mx-10 mx-10 md:mt-10 mt-10 md:mb-10 mb-10 md:py-10 py-10">
         <h2 className="text-xl uppercase md:text-2xl font-bold text-center py-7 md:py-10 md:mb-10 mb-8">
           Nos Partenaires
         </h2>
