@@ -10,9 +10,9 @@ const CardSolution = () => {
             <img
               src="../../public/1.png"
               alt=""
-              className=" w-full h-80 md:h-96 object-cover"
+              className=" w-full h-80 md:h-96 object-cover transition duration-300 ease-in-out hover:scale-110"
             />
-            <div className=" flex md:mx-10 mx-4 justify-end items-end">
+            <div className=" flex md:mx-10 mx-4 justify-end items-end absolute">
               <div className="bg-green-700  md:p-5 p-3 rounded-full md:-mt-10 -mt-7">
                 <MdOutlineWatchLater className=" text-2xl md:text-3xl text-white" />
               </div>
