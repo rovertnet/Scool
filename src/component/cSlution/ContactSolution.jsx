@@ -6,7 +6,7 @@ import { BiSolidEnvelopeOpen } from "react-icons/bi";
 const ContactSolution = () => {
   return (
     <>
-      <div className=" md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-10 block">
+      <div className=" md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-7 block">
         <div className="flex md:flex-col flex-col gap-2 md:gap-2 md:py-10 py-10 justify-center items-center">
           <h3 className=" font-medium text-lg md:text-lg text-green-700">
             Entrer en contact
@@ -17,7 +17,7 @@ const ContactSolution = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-10">
           {/* Nos card */}
-          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-green-700 p-5 md:p-7">
+          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 rounded-lg bg-green-700 p-5 md:p-7">
             <LiaPhoneVolumeSolid className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
               APPEL d’URGENCE
@@ -27,7 +27,7 @@ const ContactSolution = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-black p-5 md:p-7">
+          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 rounded-lg bg-black p-5 md:p-7">
             <IoLocationOutline className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
               NOS BUREAUX
@@ -37,7 +37,7 @@ const ContactSolution = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-red-600 p-5 md:p-7">
+          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 rounded-lg bg-red-600 p-5 md:p-7">
             <BiSolidEnvelopeOpen className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
               ADRESSE EMAIL
@@ -47,7 +47,7 @@ const ContactSolution = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-green-700 p-5 md:p-7">
+          <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 rounded-lg bg-green-700 p-5 md:p-7">
             <MdOutlineWatchLater className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
               HORAIRE DE TRAVAIL
