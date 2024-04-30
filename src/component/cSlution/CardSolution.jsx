@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const CardSolution = () => {
   return (
     <>
-      <div className="mt-10 md:mt-10 md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-10 block">
+      <div className="mt-10 md:mt-10 md:mb-10 mb-12 px-10 md:px-12 md:py-10 py-10 block">
         <div className=" grid grid-cols80 md:grid-cols-3 gap-5">
           <div className=" bg-white shadow-md border-[1px] border-slate-400 rounded-lg overflow-hidden">
             <img
