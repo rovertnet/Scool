@@ -8,10 +8,10 @@ const ContactSolution = () => {
     <>
       <div className=" md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-7 block">
         <div className="flex md:flex-col flex-col gap-2 md:gap-2 md:py-10 py-10 justify-center items-center">
-          <h3 className=" font-medium text-lg md:text-lg text-green-700">
-            Entrer en contact
+          <h3 className=" font-medium text-lg md:text-lg text-green-700 uppercase">
+            Entrer  en  contact
           </h3>
-          <h2 className=" font-extrabold text-2xl md:text-2xl text-black uppercase">
+          <h2 className=" font-extrabold text-3xl md:text-4xl text-black uppercase">
             Contact
           </h2>
         </div>

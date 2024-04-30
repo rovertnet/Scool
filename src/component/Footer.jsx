@@ -16,7 +16,7 @@ const Footer = () => {
           <h1 className="text-start font-bold text-xl md:text-2xl text-white leading-normal">
             LA MUSDEEL
           </h1>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-16">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-10">
             <div className="flex flex-col gap-5">
               <p className="text-slate-100 font-medium md:text-base text-justify max-w-md text-lg py-4 md:py-5">
                 Nous sommes un système qui permet à nos adhérents, contre
