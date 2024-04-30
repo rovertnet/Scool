@@ -9,7 +9,7 @@ const ContactSolution = () => {
       <div className="mt-10 md:mt-10 md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-10 block">
         <div className="flex">
           <h3 className=" font-medium text-lg md:text-lg text-green-700">Entrer  en  contact</h3>
-          <h2 className=" font-extrabold">Contact</h2>
+          <h2 className=" font-extrabold text-2xl md:text-2xl">Contact</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-10">
           {/* Nos card */}
