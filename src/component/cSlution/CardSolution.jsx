@@ -11,6 +11,11 @@ const CardSolution = () => {
               alt=""
               className=" w-full h-80 md:h-96 object-cover"
             />
+            <div className=" flex md:p-3 p-2  justify-end items-end">
+              <div className="bg-green-700  md:p-3 p-2 rounded-full md:ml-4 ml-4 md:-mt-10">
+                <FaArrowRight className=" text-2xl md:text-2xl md:p-3 p-2 rounded-full md:ml-4 ml-4 md:-mt-10 text-white" />
+              </div>
+            </div>
             <div className=" text- p-5 w-full">
               <h3 className="text-2xl md:text-2xl mb-3 md:mb-4 font-bold">
                 Prestation 1
