@@ -1,5 +1,3 @@
-
-
 import { BiSolidCheckCircle } from "react-icons/bi";
 import { BiSolidEnvelopeOpen } from "react-icons/bi";
 import { BsFillPhoneFill } from "react-icons/bs";
@@ -65,7 +63,7 @@ const Element = () => {
           <div className="grid md:grid-cols-2 grid-cols-2 md:gap-5 gap-5 md:w-1/3 md:mt-16">
             <div className="">
               <img
-                src="../../public/image/1.png"
+                src="../../public/i4.jpg"
                 alt=""
                 className=" md:h-60 md:w-72 h-full rounded-lg"
               />
@@ -73,7 +71,7 @@ const Element = () => {
 
             <div className="">
               <img
-                src="../../public/image/2.png"
+                src="../../public/i1.jpg"
                 alt=""
                 className=" md:h-60 h-full rounded-lg"
               />
@@ -81,7 +79,7 @@ const Element = () => {
 
             <div className="">
               <img
-                src="../../public/image/3.png"
+                src="../../public/i3.jpg"
                 alt=""
                 className=" md:h-60  md:w-72 h-full rounded-lg"
               />
@@ -89,7 +87,7 @@ const Element = () => {
 
             <div className="">
               <img
-                src="../../public/image/4.png"
+                src="../../public/i2.jpg"
                 alt=""
                 className=" md:h-60 h-full rounded-lg"
               />
