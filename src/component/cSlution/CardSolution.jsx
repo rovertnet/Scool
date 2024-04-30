@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
+import { MdOutlineWatchLater } from "react-icons/md";
 
 const CardSolution = () => {
   return (
@@ -13,7 +14,7 @@ const CardSolution = () => {
             />
             <div className=" flex md:p-3 p-2  justify-end items-end">
               <div className="bg-green-700  md:p-3 p-2 rounded-full md:ml-4 ml-4 md:-mt-10">
-                <FaArrowRight className=" text-2xl md:text-2xl md:p-3 p-2 rounded-full md:ml-4 ml-4 md:-mt-10 text-white" />
+                <MdOutlineWatchLater className=" text-2xl md:text-2xl text-white" />
               </div>
             </div>
             <div className=" text- p-5 w-full">
