@@ -100,11 +100,19 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center bg-slate-900 px-10 md:px-10 md:py-5 py-5">
-          <p className=" text-xs md:text-sm text-slate-200 font-normal">
+        <div className="flex justify-between items-center bg-white px-10 md:px-10 md:py-5 py-5">
+          <p className=" text-xs md:text-sm text-slate-900 font-normal">
             © MUSDEEL {new Date().getFullYear()}. tous droits réservés
           </p>
-
+          <p className="text-slate-900 text-xs md:text-sm">
+            <Link to={"/"} className="text-slate-900 text-xs md:text-sm">
+              Conditions d'utilisation
+            </Link>{" "}
+            |
+            <Link to={"/"} className="text-slate-900 text-xs md:text-sm">
+              Politique de confidentialité
+            </Link>
+          </p>
           <p className=" text-xs md:text-sm text-slate-200 font-normal">
             Bestech Consult
           </p>
