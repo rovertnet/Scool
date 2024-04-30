@@ -1,4 +1,6 @@
-
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { MdOutlineWatchLater } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 const ContactSolution = () => {
   return (
@@ -12,6 +14,6 @@ const ContactSolution = () => {
       </div>
     </>
   );
-}
+};
 
-export default ContactSolution
+export default ContactSolution;
