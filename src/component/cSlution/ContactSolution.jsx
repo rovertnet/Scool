@@ -6,7 +6,7 @@ import { BiSolidEnvelopeOpen } from "react-icons/bi";
 const ContactSolution = () => {
   return (
     <>
-      <div className="mt-10 md:mt-10 md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-10 block">
+      <div className=" md:mb-14 mb-12 px-10 md:px-12 md:py-10 py-10 block">
         <div className="flex md:flex-col flex-col gap-2 md:gap-2 md:py-10 py-10 justify-center items-center">
           <h3 className=" font-medium text-lg md:text-lg text-green-700">
             Entrer en contact
@@ -40,7 +40,7 @@ const ContactSolution = () => {
           <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-red-600 p-5 md:p-7">
             <BiSolidEnvelopeOpen className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
-              
+              ADRESSE EMAIL
             </h2>
             <p className=" font-semibold text-slate-50 text-lg md:text-lg">
               ildineeesoe@gmil.com <br /> myebstudios@gmail.com
@@ -50,10 +50,10 @@ const ContactSolution = () => {
           <div className="flex flex-col md:flex-col justify-start items-start gap-3 md:gap-3 bg-green-700 p-5 md:p-7">
             <MdOutlineWatchLater className=" font-bold text-2xl md:text-4xl text-white" />
             <h2 className=" uppercase font-bold text-2xl md:text-2xl text-white">
-              APPEL d’URGENCE
+              HORAIRE DE TRAVAIL
             </h2>
             <p className=" font-semibold text-slate-50 text-lg md:text-lg">
-              (237) 681-812-255 <br /> (237) 666-331-894 A
+              Mon Sat 09:00-20:00 <br /> Sunday Emergency only
             </p>
           </div>
         </div>
